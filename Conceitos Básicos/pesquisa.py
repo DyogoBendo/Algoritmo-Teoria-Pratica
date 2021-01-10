@@ -1,8 +1,10 @@
 def pesquisar_valor(conjunto, v):
+    valor_encontrado = None
     for i in range(len(conjunto)):
         if conjunto[i] == v:
-            return i
-    return None
+            valor_encontrado = i + 1
+            return valor_encontrado
+    return valor_encontrado
 
 
 if __name__ == '__main__':
