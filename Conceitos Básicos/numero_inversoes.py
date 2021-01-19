@@ -1,6 +1,6 @@
 from math import inf
 
-
+inversoes = 0
 def merge(A, p, q, r):
     """
     :param A: Arranjo qualquer passado, A[p...q...r]
@@ -24,7 +24,7 @@ def merge(A, p, q, r):
 
     i = 0
     j = 0
-    inversoes = 0
+    global inversoes
 
     for k in range(p, r + 1):
         if L[i] < R[j]:
@@ -50,4 +50,4 @@ if __name__ == '__main__':
     teste2 = list(map(int, input('Insira uma lista\n').split(', ')))
     merge_sort(teste2, 0, len(teste2) - 1)
 
-    print(teste2)
+    print(inversoes)
