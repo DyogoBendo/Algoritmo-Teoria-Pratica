@@ -51,5 +51,3 @@ if __name__ == '__main__':
     merge_sort(teste2, 0, len(teste2) - 1)
 
     print(teste2)
-
-if __name__ == '__main__':
