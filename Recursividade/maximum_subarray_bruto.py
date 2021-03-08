@@ -12,7 +12,7 @@ def maximum_subarray(A):
                 begin = i
                 end = j
 
-    return best_soma, begin, end
+    return begin, end, best_soma
 
 # Função de tempo O(n^2)
 
