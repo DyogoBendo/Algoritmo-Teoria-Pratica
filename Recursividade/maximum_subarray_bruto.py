@@ -12,6 +12,11 @@ def maximum_subarray(A):
                 begin = i
                 end = j
 
+    # Consideramos nesse caso, em que temos apenas números negativos, que a melhor soma é um array vazio, que vale 0. 
+    if soma < 0:
+        begin = -1
+        end = -1
+        best_soma = 0
     return begin, end, best_soma
 
 # Função de tempo O(n^2)
