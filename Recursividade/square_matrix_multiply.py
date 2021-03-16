@@ -1,15 +1,16 @@
 import random
+import pprint
+from math import log2, ceil
 
 def multiply_square_matrix(A, B):
     n = len(A[0])
     c = [ [0 for _ in range(n)] for __ in range(n)]
-    
+
     for i in range(n):
         for j in range(n):
             for k in range(n):
                 c[i][j] += A[i][k] * B[k][j]
-            
-                
+                            
     return c
 
 def subtract_matrix(A, B, n):
@@ -23,23 +24,39 @@ def subtract_matrix(A, B, n):
 
 def add_matrix(A, B, n):
     c = [[0 for __ in range(n)] for _ in range(n)]
-    
+
     for i in range(n):
         for j in range(n):
             c[i][j] = A[i][j] + B[i][j]
     
     return c
     
+def regularizate(A, B, n):
+    next_2 = ceil(log2(n))
     
+    Az = [[0 for _ in range(2 ** next_2)] for _ in range(2 ** next_2)]
+    Bz = [[0 for _ in range(2 ** next_2)] for _ in range(2 ** next_2)]
+    
+    for i in range(n):
+        for j in range(n):
+            Az[i][j] = A[i][j]
+            Bz[i][j] = B[i][j]    
+    nz = next_2 * 2
+
+    return Az, Bz, nz
+
 
 def straussen_matrix(A, B, n):
+    if n == 1:
+        c = [[0]]
+        c[0][0] = A[0][0] * B[0][0]
+        return c
+    
+    if log2(n) < ceil(log2(n)):
+        A, B, n = regularizate(A, B, n)
     
     c = [[0 for _ in range(n)] for __ in range(n)]
     k = n // 2
-    
-    if n == 1:
-        c[0][0] = A[0][0] * B[0][0]
-        return c
     
     a11 = [[0 for _ in range(k)] for __ in range(k)] 
     a12 = [[0 for _ in range(k)] for __ in range(k)] 
@@ -49,7 +66,7 @@ def straussen_matrix(A, B, n):
     b12 = [[0 for _ in range(k)] for __ in range(k)] 
     b21 = [[0 for _ in range(k)] for __ in range(k)] 
     b22 = [[0 for _ in range(k)] for __ in range(k)]
-    
+
     for i in range(k):
         for j in range(k):
             
@@ -76,7 +93,7 @@ def straussen_matrix(A, B, n):
     c11 = add_matrix (subtract_matrix(add_matrix(p1, p4, k), p5, k), p7, k)
     c12 = add_matrix(p3, p5, k)
     c21 = add_matrix(p2, p4, k)
-    c22 = subtract_matrix(p1, p2, k)
+    c22 = add_matrix (subtract_matrix(p1, p2, k), add_matrix(p3, p6, k), k)
     
     for i in range(k):
         for j in range(k):
@@ -88,9 +105,17 @@ def straussen_matrix(A, B, n):
     return c
 
 if __name__ == "__main__":
-    a = [[random.randint(-10, 10) for _ in range(8)] for _ in range(8)]
-    b = [[random.randint(-10, 10) for _ in range(8)] for _ in range(8)]
+    a = [[random.randint(-10, 10) for _ in range(20)] for _ in range(20)]
+    b = [[random.randint(-10, 10) for _ in range(20)] for _ in range(20)]
+    t1 = multiply_square_matrix(a, b)
+    t2 = straussen_matrix(a, b, 20)
     
-    print(multiply_square_matrix(a, b))
+    if t1 == t2:
+        print("Worked!")
+    pprint.pprint(t1)
     print()
-    print(straussen_matrix(a, b, 8))
+    pprint.pprint(t2)
+    
+    
+    # Funciona até o 6
+    
