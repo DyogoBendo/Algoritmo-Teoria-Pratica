@@ -4,7 +4,7 @@ from random import randint
 
 def max_heapfy(A, i):
     l = 2 * i + 1
-    r = 2*i + + 2
+    r = 2*i + 2
     
     if l < len(A):
         if A[l] > A[i]:
@@ -17,10 +17,6 @@ def max_heapfy(A, i):
     if r < len(A):
         if A[r] > A[maior]:
             maior = r
-        else:
-            maior = i
-    else:
-        maior = i
     
     if maior != i:
         A[i], A[maior] = A[maior], A[i]
@@ -41,16 +37,12 @@ def min_heapfy(A, i):
         menor = i
 
     if r < len(A):
-        if A[r] < A[i]:
-            menor = r
-        else:
-            menor = i
-    else:
-        menor = i
+        if A[r] < A[menor]:
+            menor = r        
     
     if menor != i:
         A[i], A[menor] = A[menor], A[i]
-        max_heapfy(A, menor)        
+        min_heapfy(A, menor)        
 
 # Ambos possuem o mesmo tempo de execução
 
@@ -81,7 +73,9 @@ def build_max_heap(A):
     for i in range(ceil(len(A) / 2), -1, -1):
         max_heapfy(A, i)    
 
-
+def build_min_heap(A):
+    for i in range(ceil(len(A) / 2), -1, -1):
+        min_heapfy(A, i)    
     
 if __name__ == "__main__":        
     heap = [5, 0, 3, 1, 2]    
@@ -93,12 +87,15 @@ if __name__ == "__main__":
     max_heapfy_loop(heap, 1)
     print(heap)
         
-    max_heapfy(heap, 1) 
-    print(heap)
+    # max_heapfy(heap, 1) 
+    # print(heap)
     
     min_heapfy(heap, 1)
     print(heap)
     
     build_max_heap(random_heap)
+    print(random_heap)
+    
+    build_min_heap(random_heap)
     print(random_heap)
     
