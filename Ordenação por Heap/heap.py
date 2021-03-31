@@ -3,8 +3,8 @@ from random import randint
 
 
 def max_heapfy(A, i):
-    l = 2 * i
-    r = 2*i + 1
+    l = 2 * i + 1
+    r = 2*i + + 2
     
     if l < len(A):
         if A[l] > A[i]:
@@ -15,7 +15,7 @@ def max_heapfy(A, i):
         maior = i
 
     if r < len(A):
-        if A[r] > A[i]:
+        if A[r] > A[maior]:
             maior = r
         else:
             maior = i
@@ -29,8 +29,8 @@ def max_heapfy(A, i):
 
 
 def min_heapfy(A, i):
-    l = 2 * i
-    r = 2*i + 1
+    l = 2 * i + 1
+    r = 2*i + 2
     
     if l < len(A):
         if A[l] < A[i]:
@@ -56,9 +56,9 @@ def min_heapfy(A, i):
 
 def max_heapfy_loop(A, i):    
     while True: 
-        l = 2 * i + 1 if 2 * i < len(A) else None
-        r = 2 * i + 2 if 2 * i  + 1 < len(A) else None
-        
+        l = 2 * i + 1 if 2 * i + 1 < len(A) else None
+        r = 2 * i + 2 if 2 * i  + 2 < len(A) else None
+                
         if not l and not r:
             maior = None
         
@@ -79,13 +79,14 @@ def max_heapfy_loop(A, i):
 
 def build_max_heap(A):
     for i in range(ceil(len(A) / 2), -1, -1):
-        print(i)
-        print(A)
         max_heapfy(A, i)    
+
+
     
 if __name__ == "__main__":        
     heap = [5, 0, 3, 1, 2]    
     random_heap = [randint(0, 100) for i in range(5)]
+    
     print(heap)
     print(random_heap)
     
