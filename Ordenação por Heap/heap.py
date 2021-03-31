@@ -1,4 +1,5 @@
-from typing import Mapping
+from math import ceil
+from random import randint
 
 
 def max_heapfy(A, i):
@@ -74,10 +75,19 @@ def max_heapfy_loop(A, i):
             break
         A[i], A[maior] = A[maior], A[i]        
         i = maior                         
+
+
+def build_max_heap(A):
+    for i in range(ceil(len(A) / 2), -1, -1):
+        print(i)
+        print(A)
+        max_heapfy(A, i)    
     
 if __name__ == "__main__":        
     heap = [5, 0, 3, 1, 2]    
+    random_heap = [randint(0, 100) for i in range(5)]
     print(heap)
+    print(random_heap)
     
     max_heapfy_loop(heap, 1)
     print(heap)
@@ -87,4 +97,7 @@ if __name__ == "__main__":
     
     min_heapfy(heap, 1)
     print(heap)
+    
+    build_max_heap(random_heap)
+    print(random_heap)
     
