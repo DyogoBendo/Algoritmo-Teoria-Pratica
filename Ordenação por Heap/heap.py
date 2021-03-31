@@ -53,8 +53,33 @@ def min_heapfy(A, i):
 
 # Ambos possuem o mesmo tempo de execução
 
+def max_heapfy_loop(A, i):    
+    while True: 
+        l = 2 * i + 1 if 2 * i < len(A) else None
+        r = 2 * i + 2 if 2 * i  + 1 < len(A) else None
+        
+        if not l and not r:
+            maior = None
+        
+        elif not l and r:
+            maior = r
+        
+        elif not r and l:
+            maior = l
+        
+        else:
+            maior = l if A[l] > A[r] else r
+    
+        if not (maior and A[maior] > A[i]):
+            break
+        A[i], A[maior] = A[maior], A[i]        
+        i = maior                         
+    
 if __name__ == "__main__":        
-    heap = [5, 0, 3, 1, 2]
+    heap = [5, 0, 3, 1, 2]    
+    print(heap)
+    
+    max_heapfy_loop(heap, 1)
     print(heap)
         
     max_heapfy(heap, 1) 
