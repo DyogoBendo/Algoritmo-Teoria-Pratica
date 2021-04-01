@@ -2,7 +2,7 @@ from math import ceil
 from random import randint
 
 
-def max_heapfy(A, i):
+def max_heapfy(A, i, end = 0):    
     l = 2 * i + 1
     r = 2*i + 2
     
@@ -24,7 +24,7 @@ def max_heapfy(A, i):
 
 
 
-def min_heapfy(A, i):
+def min_heapfy(A, i):    
     l = 2 * i + 1
     r = 2*i + 2
     
@@ -70,12 +70,27 @@ def max_heapfy_loop(A, i):
 
 
 def build_max_heap(A):
-    for i in range(ceil(len(A) / 2), -1, -1):
+    for i in range(len(A) // 2, -1, -1):
         max_heapfy(A, i)    
 
 def build_min_heap(A):
-    for i in range(ceil(len(A) / 2), -1, -1):
+    for i in range(len(A) // 2, -1, -1):
         min_heapfy(A, i)    
+
+def heapsort(A):
+    build_max_heap(A)
+    diminui = 0
+    print("---")    
+    B = []
+    for i in range(len(A) - 1, 1, -1):
+        diminui -= 1     
+        print(A)   
+        A[i], A[0] = A[0], A[i]
+        print(A)
+        print()                                
+        max_heapfy(A[:diminui], 0)
+        print()
+        print()
     
 if __name__ == "__main__":        
     heap = [5, 0, 3, 1, 2]    
@@ -97,5 +112,11 @@ if __name__ == "__main__":
     print(random_heap)
     
     build_min_heap(random_heap)
+    print(random_heap)
+    
+    print()
+    print()
+    
+    heapsort(random_heap)
     print(random_heap)
     
