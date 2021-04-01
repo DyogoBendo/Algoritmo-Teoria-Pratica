@@ -88,6 +88,20 @@ def heapsort(A):
         diminui -= 1             
         A[i], A[0] = A[0], A[i]             
         max_heapfy_loop(A, 0, len(A) + diminui)        
+
+
+def heap_maximum(A):  # retorna o maior elemento de um heap maximo
+    return A[0]
+
+def heap_extract_max(A):
+    if len(A) < 1:
+        raise Exception(IndexError)
+    max, A[0] = A[0], A[- 1]            
+    A.pop(-1)
+    
+    max_heapfy_loop(A, 0)
+    
+    return max        
     
 if __name__ == "__main__":        
     heap = [5, 0, 3, 1, 2]    
@@ -105,12 +119,17 @@ if __name__ == "__main__":
     # min_heapfy(heap, 1)
     # print(heap)
     
-    # build_max_heap(random_heap)
-    # print(random_heap)
+    build_max_heap(random_heap)
+    print(random_heap)
+    
+    print(heap_extract_max(random_heap))
+    print(random_heap)
     
     # build_min_heap(random_heap)
     # print(random_heap)
     
-    heapsort(random_heap)
-    print(random_heap)
+    # heapsort(random_heap)
+    # print(random_heap)
+    
+    
     
