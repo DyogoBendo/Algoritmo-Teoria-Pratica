@@ -2,7 +2,7 @@ from math import ceil
 from random import randint
 
 
-def max_heapfy(A, i, end = 0):    
+def max_heapfy(A, i):    
     l = 2 * i + 1
     r = 2*i + 2
     
@@ -46,10 +46,13 @@ def min_heapfy(A, i):
 
 # Ambos possuem o mesmo tempo de execução
 
-def max_heapfy_loop(A, i):    
+def max_heapfy_loop(A, i, end = -1):
+    if end == -1:
+        end = len(A)
+    B = A[:end]                        
     while True: 
-        l = 2 * i + 1 if 2 * i + 1 < len(A) else None
-        r = 2 * i + 2 if 2 * i  + 2 < len(A) else None
+        l = 2 * i + 1 if 2 * i + 1 < len(B) else None
+        r = 2 * i + 2 if 2 * i  + 2 < len(B) else None
                 
         if not l and not r:
             maior = None
@@ -61,13 +64,14 @@ def max_heapfy_loop(A, i):
             maior = l
         
         else:
-            maior = l if A[l] > A[r] else r
+            maior = l if B[l] > B[r] else r
     
-        if not (maior and A[maior] > A[i]):
+        if not (maior and B[maior] > B[i]):
             break
-        A[i], A[maior] = A[maior], A[i]        
+        B[i], B[maior] = B[maior], B[i]        
         i = maior                         
 
+    A[:end] = B
 
 def build_max_heap(A):
     for i in range(len(A) // 2, -1, -1):
@@ -79,43 +83,33 @@ def build_min_heap(A):
 
 def heapsort(A):
     build_max_heap(A)
-    diminui = 0
-    print("---")    
-    B = []
-    for i in range(len(A) - 1, 1, -1):
-        diminui -= 1     
-        print(A)   
-        A[i], A[0] = A[0], A[i]
-        print(A)
-        print()                                
-        max_heapfy(A[:diminui], 0)
-        print()
-        print()
+    diminui = 0          
+    for i in range(len(A) - 1, 0, -1):
+        diminui -= 1             
+        A[i], A[0] = A[0], A[i]             
+        max_heapfy_loop(A, 0, len(A) + diminui)        
     
 if __name__ == "__main__":        
     heap = [5, 0, 3, 1, 2]    
     random_heap = [randint(0, 100) for i in range(5)]
     
-    print(heap)
+    # print(heap)
     print(random_heap)
     
-    max_heapfy_loop(heap, 1)
-    print(heap)
+    # max_heapfy_loop(heap, 1)
+    # print(heap)
         
     # max_heapfy(heap, 1) 
     # print(heap)
     
-    min_heapfy(heap, 1)
-    print(heap)
+    # min_heapfy(heap, 1)
+    # print(heap)
     
-    build_max_heap(random_heap)
-    print(random_heap)
+    # build_max_heap(random_heap)
+    # print(random_heap)
     
-    build_min_heap(random_heap)
-    print(random_heap)
-    
-    print()
-    print()
+    # build_min_heap(random_heap)
+    # print(random_heap)
     
     heapsort(random_heap)
     print(random_heap)
