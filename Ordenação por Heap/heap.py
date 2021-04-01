@@ -1,4 +1,4 @@
-from math import ceil
+from math import ceil, inf
 from random import randint
 
 
@@ -93,6 +93,9 @@ def heapsort(A):
 def heap_maximum(A):  # retorna o maior elemento de um heap maximo
     return A[0]
 
+def heap_minimun(A):
+    return A[0]
+
 def heap_extract_max(A):
     if len(A) < 1:
         raise Exception(IndexError)
@@ -102,6 +105,46 @@ def heap_extract_max(A):
     max_heapfy_loop(A, 0)
     
     return max        
+
+
+def heap_extract_minimun(A):
+    if len(A) < 1:
+        pass
+    else:
+        min, A[0] = A[0], A[-1]
+        A.pop(-1)
+        
+        min_heapfy(A, 0)
+        
+        return min
+
+def heap_increse_key(A, i, chave):
+    if chave < A[i]:
+        pass
+    else:
+        A[i] = chave
+        while i > 0 and A[i // 2] < A[i]:
+            A[i], A[i // 2] = A[i//2], A[i]
+            i = i // 2
+
+
+def heap_descrese_key(A, i, chave):
+    if chave > A[i]:
+        pass
+    else:
+        A[i] = chave
+        while i > 0 and A[i // 2] > A [i]:
+            A[i], A[i // 2] = A[i // 2], A[i]
+            i = i // 2
+            
+def max_heap_insert(A, chave):
+    A.append(-inf)
+    heap_increse_key(A, len(A) - 1, chave)
+
+
+def min_heap_insert(A, chave):
+    A.append(inf)
+    heap_descrese_key(A, len(A) - 1, chave)
     
 if __name__ == "__main__":        
     heap = [5, 0, 3, 1, 2]    
@@ -123,6 +166,26 @@ if __name__ == "__main__":
     print(random_heap)
     
     print(heap_extract_max(random_heap))
+    print(random_heap)
+    
+    heap_increse_key(random_heap, 3, 50)
+    print(random_heap)
+    
+    max_heap_insert(random_heap, 72)
+    print(random_heap)
+    
+    # ------------------------------------
+    
+    build_min_heap(random_heap)
+    print(random_heap)
+    
+    print(heap_extract_minimun(random_heap))
+    print(random_heap)
+    
+    heap_descrese_key(random_heap, 3, 17)
+    print(random_heap)
+    
+    min_heap_insert(random_heap, 43)
     print(random_heap)
     
     # build_min_heap(random_heap)
