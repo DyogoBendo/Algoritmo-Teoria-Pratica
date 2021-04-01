@@ -121,12 +121,11 @@ def heap_extract_minimun(A):
 def heap_increse_key(A, i, chave):
     if chave < A[i]:
         pass
-    else:
-        A[i] = chave
-        while i > 0 and A[i // 2] < A[i]:
-            A[i], A[i // 2] = A[i//2], A[i]
+    else:        
+        while i > 0 and A[i // 2] < chave:
+            A[i] = A[i//2]
             i = i // 2
-
+        A[i] = chave
 
 def heap_descrese_key(A, i, chave):
     if chave > A[i]:
