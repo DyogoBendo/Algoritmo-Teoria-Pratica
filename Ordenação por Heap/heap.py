@@ -140,6 +140,15 @@ def max_heap_insert(A, chave):
     A.append(-inf)
     heap_increse_key(A, len(A) - 1, chave)
 
+def max_heap_delete(A, i):
+    if len(A) < i:
+        pass
+    chave, A[i] = A[i], A[- 1]            
+    A.pop(-1)
+    
+    max_heapfy_loop(A, i)
+    
+    return chave        
 
 def min_heap_insert(A, chave):
     A.append(inf)
@@ -173,6 +182,9 @@ if __name__ == "__main__":
     max_heap_insert(random_heap, 72)
     print(random_heap)
     
+    print(max_heap_delete(random_heap, 1))
+    print(random_heap)
+    
     # ------------------------------------
     
     build_min_heap(random_heap)
@@ -181,7 +193,7 @@ if __name__ == "__main__":
     print(heap_extract_minimun(random_heap))
     print(random_heap)
     
-    heap_descrese_key(random_heap, 3, 17)
+    heap_descrese_key(random_heap, 2, 17)
     print(random_heap)
     
     min_heap_insert(random_heap, 43)
