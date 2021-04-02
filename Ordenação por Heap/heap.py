@@ -154,12 +154,29 @@ def min_heap_insert(A, chave):
     A.append(inf)
     heap_descrese_key(A, len(A) - 1, chave)
     
+
+def build_max_heap_2(A):      
+    B = []  
+    for i in range(0, len(A)):
+        max_heap_insert(B, A[i])
+    return B
+    
 if __name__ == "__main__":        
     heap = [5, 0, 3, 1, 2]    
-    random_heap = [randint(0, 100) for i in range(5)]
+    random_heap = [randint(0, 100) for i in range(5)]    
     
     # print(heap)
     print(random_heap)
+    print("-" * 30)
+    
+    
+    nice = build_max_heap_2(random_heap)
+    print(nice)    
+    
+    print("-" * 30)
+        
+    build_max_heap(random_heap)
+    print(random_heap)                
     
     # max_heapfy_loop(heap, 1)
     # print(heap)
@@ -170,34 +187,32 @@ if __name__ == "__main__":
     # min_heapfy(heap, 1)
     # print(heap)
     
-    build_max_heap(random_heap)
-    print(random_heap)
     
-    print(heap_extract_max(random_heap))
-    print(random_heap)
+    # print(heap_extract_max(random_heap))
+    # print(random_heap)
     
-    heap_increse_key(random_heap, 3, 50)
-    print(random_heap)
+    # heap_increse_key(random_heap, 3, 50)
+    # print(random_heap)
     
-    max_heap_insert(random_heap, 72)
-    print(random_heap)
+    # max_heap_insert(random_heap, 72)
+    # print(random_heap)
     
-    print(max_heap_delete(random_heap, 1))
-    print(random_heap)
+    # print(max_heap_delete(random_heap, 1))
+    # print(random_heap)
     
     # ------------------------------------
     
-    build_min_heap(random_heap)
-    print(random_heap)
+    # build_min_heap(random_heap)
+    # print(random_heap)
     
-    print(heap_extract_minimun(random_heap))
-    print(random_heap)
+    # print(heap_extract_minimun(random_heap))
+    # print(random_heap)
     
-    heap_descrese_key(random_heap, 2, 17)
-    print(random_heap)
+    # heap_descrese_key(random_heap, 2, 17)
+    # print(random_heap)
     
-    min_heap_insert(random_heap, 43)
-    print(random_heap)
+    # min_heap_insert(random_heap, 43)
+    # print(random_heap)
     
     # build_min_heap(random_heap)
     # print(random_heap)
