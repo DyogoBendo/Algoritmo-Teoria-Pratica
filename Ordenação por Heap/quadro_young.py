@@ -45,6 +45,51 @@ def youngfy(matriz, i, j):
         youngfy(matriz, menor[0], menor[1])        
         
 
+def young_insert(board, value):
+    linha = len(board) - 1
+    coluna = len(board[0]) - 1
+    
+    young_insert_order(board, value, linha, coluna)
+
+
+def young_insert_order(board, value, linha, coluna):    
+    while True:
+        if linha - 1 < 0:
+            break
+        if board[linha - 1][coluna] == None:
+            linha -= 1
+        else:
+            break
+    
+    while True:
+        if coluna - 1 < 0:
+            break
+        if board[linha][coluna - 1] == None:
+            coluna -= 1
+        else:
+            break
+    
+    while True:  
+        maior = value
+        pos_maior = [linha, coluna]       
+        if linha - 1 >= 0:      
+            if board[linha - 1][coluna] > maior:
+                pos_maior = [linha - 1, coluna]
+                maior = board[linha - 1][coluna]
+        
+        if coluna - 1>= 0:                        
+            if board[linha][coluna - 1] > maior:
+                pos_maior = [linha, coluna - 1]
+                maior = board[linha][coluna - 1]            
+                 
+                
+        if maior != value:
+            board[linha][coluna], board[pos_maior[0]][pos_maior[1]] = board[pos_maior[0]][pos_maior[1]], board[linha][coluna]
+            linha, coluna = pos_maior
+        else: 
+            board[linha][coluna] = value
+            break                        
+                
 
 if __name__ == "__main__":
     quadro_young = [
@@ -64,4 +109,9 @@ if __name__ == "__main__":
     
     extract_min(quadro_young)
     pprint(quadro_young)
-        
+    
+    young_insert(quadro_young, 1)
+    pprint(quadro_young)
+    
+    young_insert(quadro_young, 3)
+    pprint(quadro_young)
