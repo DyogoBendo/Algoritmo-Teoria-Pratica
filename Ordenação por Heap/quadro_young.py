@@ -112,6 +112,8 @@ def young_sort(board):
         for j in range(len(board[0]) - 1, -1, -1):              
             board[i][j], board[0][0] = board[0][0], board[i][j]                        
             youngfy(board, 0, 0, [i, j])        
+
+# problema de como encontrar um número de O(m + n) não resolvido
     
 if __name__ == "__main__":
     quadro_young = [
