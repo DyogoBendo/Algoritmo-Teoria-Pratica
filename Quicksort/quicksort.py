@@ -45,7 +45,7 @@ def partition_decreasing(A, p, r):
     
 
 if __name__ == "__main__":
-    A = [randint(0, 100) for _ in range(11)]
+    A = list({randint(0, 100)  for _ in range(11)})
     
     print(A)
     
