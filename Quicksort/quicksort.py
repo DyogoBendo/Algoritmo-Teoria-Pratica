@@ -2,7 +2,7 @@ from random import randint
 
 def quicksort(A, p, r):
     if p < r:
-        q = partition(A, p, r)
+        q = randomized_partition(A, p, r)
         quicksort(A, p, q - 1)
         quicksort(A, q + 1, r)
 
@@ -20,6 +20,12 @@ def partition(A, p, r):
         i = (p + r) // 2
     
     return i + 1
+
+def randomized_partition(A, p, r):
+    i = randint(p, r)
+    A[r], A[i] = A[i], A[r]  # trocamos a ultima posicao por um elemento aleatorio
+    return partition(A, p, r)
+    
 
 
 def quicksort_decreasing(A, p, r):
