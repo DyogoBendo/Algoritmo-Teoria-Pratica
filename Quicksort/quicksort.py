@@ -80,29 +80,13 @@ def partition_decreasing(A, p, r):
         i = (p + r) // 2
     
     return i + 1
-    
-def partition_2(a, low, high):
- 
-    pivot = a[low]
-    (i, j) = (low - 1, high + 1)
- 
-    while True:
- 
-        while True:
-            i = i + 1
-            if a[i] >= pivot:
-                break
- 
-        while True:
-            j = j - 1
-            if a[j] <= pivot:
-                break
- 
-        if i >= j:
-            print(a)
-            return j
- 
-        a[i], a[j] = a[j], a[i]
+
+def tail_recursive_quicksort(A, p, r):
+    while p < r:
+        q = partition(A, p, r)  
+        tail_recursive_quicksort(A, p, q - 1)
+        p = q + 1
+
                 
 if __name__ == "__main__":
     A = list({randint(0, 100)  for _ in range(11)})
