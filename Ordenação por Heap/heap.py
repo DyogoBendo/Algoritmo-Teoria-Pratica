@@ -29,7 +29,7 @@ def min_heapfy(A, i):
     r = 2*i + 2
     
     if l < len(A):
-        if A[l] < A[i]:
+        if A[l] <= A[i]:
             menor = l
         else:
             menor = i
@@ -37,7 +37,7 @@ def min_heapfy(A, i):
         menor = i
 
     if r < len(A):
-        if A[r] < A[menor]:
+        if A[r] <= A[menor]:
             menor = r        
     
     if menor != i:
