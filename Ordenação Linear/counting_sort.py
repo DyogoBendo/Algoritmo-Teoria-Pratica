@@ -12,6 +12,22 @@ def counting_sort(A, B, k):  # ordenação utilizando contagem
         B[C[A[j]] -1] = A[j]
         C[A[j]] -= 1
 
+def count_min(A, k):
+    C = [0 for _ in range(k + 1)]    
+    for j in range(len(A)):                
+        C[A[j]] += 1    # contamos quantos de cada elemento j aparecem   
+    # C[i] possui o número de elementos igual a i        
+    for i in range(1, k + 1): 
+        C[i] += C[i - 1]
+    return C        
+
+def count_subarray(C, a, b):  # conta quantos elementos estão entre os valores a e b no array que foi processado em count_min
+    if a == 0:
+        return C[b]
+    else:
+        s = C[b] - C[a - 1]
+        return s
+
 
 if __name__ == "__main__":
     a = [randint(0, 20) for _ in range(20)]
@@ -21,4 +37,7 @@ if __name__ == "__main__":
     print("Vetor incial: ", a)
     counting_sort(a, b, k)
     print("Vetor ordenado: ", b)
+
+    c = count_min(a, k)
+    print(count_subarray(c, 10, 15))
 
