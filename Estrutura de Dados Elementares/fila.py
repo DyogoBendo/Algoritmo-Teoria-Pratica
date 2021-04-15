@@ -9,8 +9,11 @@ class Fila():
         self.fim += 1
     
     def dequeue(self):            
-        self.fim -= 1
-        return self.fila.pop(0)
+        if self.fim > 0:
+            self.fim -= 1
+            return self.fila.pop(0)
+        else:
+            raise Exception("A fila já está vazia")
 
 
 if __name__ == "__main__":
