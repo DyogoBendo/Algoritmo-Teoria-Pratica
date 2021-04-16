@@ -5,57 +5,60 @@ class Node():
         self.chave = v
     
     def __str__(self) -> str:
-        return f'Chave: {self.chave}, anterior: {self.anterior}, proximo: {self.proximo}'
+        return f'Chave: {self.chave}, Anterior: {self.anterior}, Próximo: {self.proximo}'
 
 
 class Lista_Duplamente_Ligada():
     def __init__(self) -> None:        
-        self.nulo = Node(None) 
-        self.nulo = Node(None, self.nulo, self.nulo)
+        self.inicio = None
+        self.size = 0
     
     def list_insert(self, v):
-        v.proximo = self.nulo.proximo                  
-        self.nulo.proximo.anterior = v    # anterior do primeiro elemento        
-        self.nulo.proximo = v  # novo primeiro elemento 
-        v.anterior = self.nulo        
-                     
+        if self.inicio:
+            pointer = self.inicio
+            while pointer.proximo:
+                pointer = pointer.proximo
+            pointer.proximo = Node(v, pointer)
+        else:
+            self.inicio = Node(v)
+        
+        self.size += 1
 
     def list_search(self, v):
-        x = self.nulo.proximo
-        while x != self.nulo and x.chave != v:
+        x = self.inicio
+        while x and x.chave != v:
             x = x.proximo
         
         return x
 
     def list_delete(self, v):
-        v.anterior.proximo = v.proximo
-        v.proximo.anterior = v.anterior
+        if v.anterior:
+            v.anterior.proximo = v.proximo
+        else:
+            self.inicio = v.proximo
+
+        if v.proximo:
+            v.proximo.anterior = v.anterior
+        else:
+            self.fim = v.anterior
+
         v = None
+
+
+    def __len__(self):
+        return self.size
     
-    def __str__(self) -> str:
-        txt = ''
-        x = self.nulo.proximo        
-        while x != self.nulo:
-            txt += str(x) + '\n'
-            x = x.proximo
-            print(x.proximo)
-        
-        return txt
+
+    def __getitem__(self, index):
+        pointer = self.inicio
+        for _ in range(index):
+            if pointer:
+                pointer = pointer.next
+            else:
+                raise IndexError("O index está fora de alcance")
+        if pointer:
+            return pointer
+        raise IndexError("O index está fora de alcance")
 
 
-if __name__ == "__main__":
-    node1 = Node(6)
-    node2 = Node(7)
-    node3 = Node(1)
-    node4 = Node(9)
-    print(node3)
 
-    lista = Lista_Duplamente_Ligada()
-
-    lista.list_insert(node1)
-    lista.list_insert(node2)
-    lista.list_insert(node3)
-    lista.list_insert(node4)
-    # print(lista)
-
-    # print(lista.list_search(1))
