@@ -16,10 +16,26 @@ class ArvoreBinaria():
         self.raiz = r
              
     def visitar_elementos(self, e):
-        if e:
-            print(e)
+        if e:            
             self.visitar_elementos(e.left)
             self.visitar_elementos(e.right)            
+            print(e)
+    
+    def visitar_nao_recursivo(self):
+        s = []
+        n = self.raiz        
+        while True:                        
+            if not n:
+                if len(s) > 0:
+                    popped = s.pop()
+                    print(popped)
+                    n = popped.right
+                else:
+                    break
+            else:
+                s.append(n)            
+                n = n.left
+
     
 
 if __name__ == "__main__":
@@ -43,6 +59,8 @@ if __name__ == "__main__":
     print("Arvore:")
     arvore = ArvoreBinaria(a)
     arvore.visitar_elementos(a)
+    print("-"*20)
+    arvore.visitar_nao_recursivo()
     
 
 
