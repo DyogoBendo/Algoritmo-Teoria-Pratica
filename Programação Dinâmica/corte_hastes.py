@@ -43,7 +43,23 @@ def bottom_up_cut_rod(p, n):
     return r[n]
 
 
+def extended_bottom_up_cut_rod(p, n):  # registramos o caminho de escolhas tomadas
+    r = [-inf for _ in range(n + 1)]
+    s = [-inf for _ in range(n + 1)]
+    r[0] = 0    
+
+    for j in range(1, n + 1):
+        q = -inf
+        for i in range(0, j):            
+            if q < p[i] + r[j - (i + 1)]:
+                q = p[i] + r[j - (i + 1)]
+                s[j] = i
+        r[j] = q    
+    return [r, s]
+
+
 if __name__ == "__main__":
+    soma = lambda a : a + 1
     precos = [1, 5, 8, 9, 10, 17, 17, 20, 24, 30, 45, 50, 54, 60, 71, 80, 85, 87, 90, 99]
     start_time = time.time()
     print("Calculando de forma ingênua: ")    
@@ -64,3 +80,15 @@ if __name__ == "__main__":
     for i in range(0, 21):        
         print(f"Com tamanho {i} a receita total é: R$ {bottom_up_cut_rod(precos, i):.2f}")
     print("--- %s seconds ---" % (time.time() - start_time))
+
+    print("-" * 50)            
+    print("Solução para o problema: ")    
+    for i in range (1, 21):
+        r, s = extended_bottom_up_cut_rod(precos, i)
+        n = i
+        a = []
+        while n > 0:                                        
+            a.append(str(s[n] + 1))            
+            n -= (s[n] + 1)
+        print(f"Com tamanho {i} a receita total é: R$ {r[i]:.2f}")
+        print(f"Os tamanhos que as hastes devem ser cortadas são: {', '.join(a)}\n")
