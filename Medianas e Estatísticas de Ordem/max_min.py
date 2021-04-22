@@ -27,7 +27,7 @@ def randomized_select(A, p, r, i):
     k = q - p + 1
     if i == k:
         return A[q]
-    elif i < k:
+    elif i < k: 
         return randomized_select(A, p, q - 1, i)
     else:
         return randomized_select(A, q + 1, r, i - k)
