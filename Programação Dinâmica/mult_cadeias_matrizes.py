@@ -44,7 +44,7 @@ if __name__ == "__main__":
         if i < t - 2:
             print("\n")
     
-    print_optimal_parens(b, 1, 4)
+    print_optimal_parens(b, 0, 5)
     print( "\n" + "*" * 50)
 
     p = (5, 10, 3, 12, 5, 50, 6)    
