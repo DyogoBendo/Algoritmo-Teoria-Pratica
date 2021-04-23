@@ -19,6 +19,17 @@ def matrix_chain_order(p):
     return m, s
 
 
+def print_optimal_parens(s, i, j):          
+    if i == j:
+        print (f"A{i + 1}", end="")
+    else:        
+        
+        print("( ", end="")
+        print_optimal_parens(s, i, s[i][j] - 1)
+        print_optimal_parens(s, s[i][j], j)
+        print(" )", end="") 
+
+
 if __name__ == "__main__":
     p = (30, 35, 15, 5, 10, 20, 25)
 
@@ -33,3 +44,5 @@ if __name__ == "__main__":
         if i < t - 2:
             print("\n")
 
+    print(b)
+    print_optimal_parens(b, 1, 4)
