@@ -6,15 +6,30 @@ def recursive_matrix_chain(p, i, j):     # solução ineficiente de tempo expone
     if i == j:
         return 0        
     for k in range(i, j - 1):
-        q = recursive_matrix_chain(p, i, k) + recursive_matrix_chain(p, k + 1, j)
+        q = recursive_matrix_chain(p, i, k) + recursive_matrix_chain(p, k + 1, j) + (p[i - 1] * p[k] *p[j])
         if q < y[i][j]:
             y[i][j] = q
         
     return y[i][j]
 
+def memoized_matrix_chain(p):
+    n = len(p) - 1
+    m = [[inf for _ in range(n)] for __ in range(n)]
+    return 
+    
 
 
-
+def lookup_chain(m, p, i, j):
+    if m[i][j] < inf:
+        return m[i][j]
+    if i == j:
+        m[i][j] == 0
+    else:
+        for k in range(i, j - 1):
+            q = lookup_chain(m, p, i, k) + lookup_chain(m, p, k + 1, j) + (p[i - 1] * p[k] * p[j])
+            if q < m[i][j]:
+                m[i][j] = q
+        return m[i][j]
 
 def matrix_chain_order(p):
     # p -> lista das dimensões das matrizes em ordem sem repetição
