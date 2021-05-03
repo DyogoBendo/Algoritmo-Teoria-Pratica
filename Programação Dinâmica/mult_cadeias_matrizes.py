@@ -1,6 +1,21 @@
 from math import inf
 
 
+def recursive_matrix_chain(p, i, j):     # solução ineficiente de tempo exponencial
+    global y
+    if i == j:
+        return 0        
+    for k in range(i, j - 1):
+        q = recursive_matrix_chain(p, i, k) + recursive_matrix_chain(p, k + 1, j)
+        if q < y[i][j]:
+            y[i][j] = q
+        
+    return y[i][j]
+
+
+
+
+
 def matrix_chain_order(p):
     # p -> lista das dimensões das matrizes em ordem sem repetição
     n = len(p) - 1
@@ -32,8 +47,10 @@ def print_optimal_parens(s, i, j):
 
 if __name__ == "__main__":
     p = (30, 35, 15, 5, 10, 20, 25)
+    y = [[inf for _ in range(len(p))] for _ in range(len(p))]
 
     a, b = matrix_chain_order(p)
+
 
     t = len(a[0])
     for i in range(t - 1):
