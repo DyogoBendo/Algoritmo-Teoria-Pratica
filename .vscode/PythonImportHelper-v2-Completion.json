@@ -1,0 +1,1143 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "inf",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "inf",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "ceil",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "inf",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "inf",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "inf",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "inf",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "inf",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "log2",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "ceil",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "pprint",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pprint",
+        "description": "pprint",
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "pprint",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "pprint",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "red_black_tree",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "maximum_subarray",
+        "importPath": "maximum_subarray",
+        "description": "maximum_subarray",
+        "isExtraImport": true,
+        "detail": "maximum_subarray",
+        "documentation": {}
+    },
+    {
+        "label": "maximum_subarray_fused",
+        "importPath": "maximum_subarray",
+        "description": "maximum_subarray",
+        "isExtraImport": true,
+        "detail": "maximum_subarray",
+        "documentation": {}
+    },
+    {
+        "label": "maximum_subarray",
+        "importPath": "maximum_subarray_bruto",
+        "description": "maximum_subarray_bruto",
+        "isExtraImport": true,
+        "detail": "maximum_subarray_bruto",
+        "documentation": {}
+    },
+    {
+        "label": "timeit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "timeit",
+        "description": "timeit",
+        "detail": "timeit",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "load_entry_point",
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "isExtraImport": true,
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "load_entry_point",
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "isExtraImport": true,
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "load_entry_point",
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "isExtraImport": true,
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "load_entry_point",
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "isExtraImport": true,
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "load_entry_point",
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "isExtraImport": true,
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "bubblesort",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.bubblesort",
+        "description": "Conceitos Básicos.bubblesort",
+        "peekOfCode": "def bubblesort(a):\n    for i in range(len(a)):\n        for j in range(len(a) - 1, i, -1):\n            if a[j] < a[j-1]:\n                anterior = a[j]\n                a[j] = a[j-1]\n                a[j-1] = anterior\nif __name__ == '__main__':\n    entrada = list(map(int, input().split(', ')))\n    bubblesort(entrada)",
+        "detail": "Conceitos Básicos.bubblesort",
+        "documentation": {}
+    },
+    {
+        "label": "pesquisa_binaria",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.busca_binaria",
+        "description": "Conceitos Básicos.busca_binaria",
+        "peekOfCode": "def pesquisa_binaria(vetor_ordenado, valor_procurado, inicio, fim):\n    if inicio > fim:\n        return -1\n    else:\n        meio = (inicio + fim) // 2\n        if valor_procurado == vetor_ordenado[meio]:\n            return meio\n        if valor_procurado < vetor_ordenado[meio]:\n            return pesquisa_binaria(vetor_ordenado, valor_procurado, inicio, meio - 1)\n        else:",
+        "detail": "Conceitos Básicos.busca_binaria",
+        "documentation": {}
+    },
+    {
+        "label": "merge",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.numero_inversoes",
+        "description": "Conceitos Básicos.numero_inversoes",
+        "peekOfCode": "def merge(A, p, q, r):\n    \"\"\"\n    :param A: Arranjo qualquer passado, A[p...q...r]\n    :param p: indice inicial\n    :param q: indice intermediario\n    :param r: indice final\n    :return: retorna um array ordenado\n    \"\"\"\n    n1 = q - p + 1  # numero de posicoes ate o meio do array\n    n2 = r - q  # numero de posicoes depois da metade do array",
+        "detail": "Conceitos Básicos.numero_inversoes",
+        "documentation": {}
+    },
+    {
+        "label": "merge_sort",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.numero_inversoes",
+        "description": "Conceitos Básicos.numero_inversoes",
+        "peekOfCode": "def merge_sort(A, p, r):\n    if p < r:  # caso possua mais de um elemento\n        q = (p + r) // 2  # dividimos o array na metade\n        merge_sort(A, p, q)  # conquistamos metade de um array\n        merge_sort(A, q + 1, r)  # conquistamos a outra metade\n        merge(A, p, q, r)  # juntamos esses dois arrays\nif __name__ == '__main__':\n    teste2 = list(map(int, input('Insira uma lista\\n').split(', ')))\n    merge_sort(teste2, 0, len(teste2) - 1)\n    print(inversoes)",
+        "detail": "Conceitos Básicos.numero_inversoes",
+        "documentation": {}
+    },
+    {
+        "label": "inversoes",
+        "kind": 5,
+        "importPath": "Conceitos Básicos.numero_inversoes",
+        "description": "Conceitos Básicos.numero_inversoes",
+        "peekOfCode": "inversoes = 0\ndef merge(A, p, q, r):\n    \"\"\"\n    :param A: Arranjo qualquer passado, A[p...q...r]\n    :param p: indice inicial\n    :param q: indice intermediario\n    :param r: indice final\n    :return: retorna um array ordenado\n    \"\"\"\n    n1 = q - p + 1  # numero de posicoes ate o meio do array",
+        "detail": "Conceitos Básicos.numero_inversoes",
+        "documentation": {}
+    },
+    {
+        "label": "insertion_sort",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.ordenacao_insercao",
+        "description": "Conceitos Básicos.ordenacao_insercao",
+        "peekOfCode": "def insertion_sort(arranjo):\n    for j in range(1, len(arranjo)):\n        chave = arranjo[j]  # Pegamos a posição do próximo valor (a primeira carta do monte)\n        i = j - 1  # pegamos a posição da ultima carta que está na nossa mão\n        while i > -1 and arranjo[i] > chave:\n            # se a carta que escolhemos pertence a nossa mão, ou seja, não seja -1\n            # e que a carta que pegamos do monte seja menor que a que estamos comparando\n            # Se essas duas condições são atendidas, entramos no loop\n            arranjo[i + 1] = arranjo[i]\n            # como existe uma carta menor que a que estamos comparando, a que temos 'pula' para a próxima posição",
+        "detail": "Conceitos Básicos.ordenacao_insercao",
+        "documentation": {}
+    },
+    {
+        "label": "insertion_sort_desc",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.ordenacao_insercao",
+        "description": "Conceitos Básicos.ordenacao_insercao",
+        "peekOfCode": "def insertion_sort_desc(arranjo):\n    for j in range(1, len(arranjo)):\n        chave = arranjo[j]\n        i = j - 1\n        while i > -1 and arranjo[i] < chave:\n            arranjo[i + 1] = arranjo[i]\n            i -= 1\n        arranjo[i + 1] = chave\n    return arranjo\nif __name__ == '__main__':",
+        "detail": "Conceitos Básicos.ordenacao_insercao",
+        "documentation": {}
+    },
+    {
+        "label": "merge",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.ordenacao_intercalacao",
+        "description": "Conceitos Básicos.ordenacao_intercalacao",
+        "peekOfCode": "def merge(A, p, q, r):\n    \"\"\"\n    :param A: Arranjo qualquer passado, A[p...q...r]\n    :param p: indice inicial\n    :param q: indice intermediario\n    :param r: indice final\n    :return: retorna um array ordenado\n    \"\"\"\n    n1 = q - p + 1  # numero de posicoes ate o meio do array\n    n2 = r - q  # numero de posicoes depois da metade do array",
+        "detail": "Conceitos Básicos.ordenacao_intercalacao",
+        "documentation": {}
+    },
+    {
+        "label": "merge_sort",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.ordenacao_intercalacao",
+        "description": "Conceitos Básicos.ordenacao_intercalacao",
+        "peekOfCode": "def merge_sort(A, p, r):\n    if p < r:  # caso possua mais de um elemento\n        q = (p + r) // 2  # dividimos o array na metade\n        merge_sort(A, p, q)  # conquistamos metade de um array\n        merge_sort(A, q + 1, r)  # conquistamos a outra metade\n        merge(A, p, q, r)  # juntamos esses dois arrays\nif __name__ == '__main__':\n    teste2 = list(map(int, input('Insira uma lista\\n').split(', ')))\n    merge_sort(teste2, 0, len(teste2) - 1)\n    print(teste2)",
+        "detail": "Conceitos Básicos.ordenacao_intercalacao",
+        "documentation": {}
+    },
+    {
+        "label": "merge",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.ordenacao_intercalacao_sentinelas",
+        "description": "Conceitos Básicos.ordenacao_intercalacao_sentinelas",
+        "peekOfCode": "def merge(A, p, q, r):\n    \"\"\"\n    :param A: Arranjo qualquer passado, A[p...q...r]\n    :param p: indice inicial\n    :param q: indice intermediario\n    :param r: indice final\n    :return: retorna um array ordenado\n    \"\"\"\n    n1 = q - p + 1  # numero de posicoes ate o meio do array\n    n2 = r - q  # numero de posicoes depois da metade do array",
+        "detail": "Conceitos Básicos.ordenacao_intercalacao_sentinelas",
+        "documentation": {}
+    },
+    {
+        "label": "merge_sort",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.ordenacao_intercalacao_sentinelas",
+        "description": "Conceitos Básicos.ordenacao_intercalacao_sentinelas",
+        "peekOfCode": "def merge_sort(A, p, r):\n    if p < r:  # caso possua mais de um elemento\n        q = (p + r) // 2  # dividimos o array na metade\n        merge_sort(A, p, q)  # conquistamos metade de um array\n        merge_sort(A, q + 1, r)  # conquistamos a outra metade\n        merge(A, p, q, r)  # juntamos esses dois arrays\nif __name__ == '__main__':\n    teste2 = list(map(int, input('Insira uma lista\\n').split(', ')))\n    merge_sort(teste2, 0, len(teste2) - 1)\n    print(teste2)",
+        "detail": "Conceitos Básicos.ordenacao_intercalacao_sentinelas",
+        "documentation": {}
+    },
+    {
+        "label": "ordenacao_selecao",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.ordencao_selecao",
+        "description": "Conceitos Básicos.ordencao_selecao",
+        "peekOfCode": "def ordenacao_selecao(arranjo):\n    for i in range(len(arranjo) - 1):\n        posicao = arranjo[i]\n        menor = posicao\n        posicao_menor = i\n        for j in range(i + 1, len(arranjo)):\n            if arranjo[j] < menor:\n                menor = arranjo[j]\n                posicao_menor = j\n        arranjo[i] = menor",
+        "detail": "Conceitos Básicos.ordencao_selecao",
+        "documentation": {}
+    },
+    {
+        "label": "pesquisar_valor",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.pesquisa",
+        "description": "Conceitos Básicos.pesquisa",
+        "peekOfCode": "def pesquisar_valor(conjunto, v):\n    valor_encontrado = None\n    for i in range(len(conjunto)):\n        if conjunto[i] == v:\n            valor_encontrado = i + 1\n            return valor_encontrado\n    return valor_encontrado\nif __name__ == '__main__':\n    teste1 = [1, 2, 3, 4, 8]\n    print(f'Vetor: {teste1}')",
+        "detail": "Conceitos Básicos.pesquisa",
+        "documentation": {}
+    },
+    {
+        "label": "procura_soma",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.procura_soma",
+        "description": "Conceitos Básicos.procura_soma",
+        "peekOfCode": "def procura_soma(vetor, soma):\n    for i in range(len(vetor)):\n        encontrado = encontra_soma(i, vetor, soma, i + 1, len(vetor) - 1)\n        if encontrado == 1:\n            return 'Encontrado!'\n    return 'Não foi encontrado :('\ndef encontra_soma(i, vetor, soma, inicio, fim):\n    if inicio > fim:\n        return -1\n    else:",
+        "detail": "Conceitos Básicos.procura_soma",
+        "documentation": {}
+    },
+    {
+        "label": "encontra_soma",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.procura_soma",
+        "description": "Conceitos Básicos.procura_soma",
+        "peekOfCode": "def encontra_soma(i, vetor, soma, inicio, fim):\n    if inicio > fim:\n        return -1\n    else:\n        meio = (inicio + fim) // 2\n        if soma == vetor[i] + vetor[meio]:\n            return 1\n        if soma > vetor[i] + vetor[meio]:\n            return encontra_soma(i, vetor, soma, meio + 1, fim)\n        else:",
+        "detail": "Conceitos Básicos.procura_soma",
+        "documentation": {}
+    },
+    {
+        "label": "regra_horner",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.regra_Horner",
+        "description": "Conceitos Básicos.regra_Horner",
+        "peekOfCode": "def regra_horner(x, coeficientes):\n    y = 0\n    i = len(coeficientes) - 1\n    while i >= 0:\n        y = coeficientes[i] + (x * y)\n        i -= 1\n    return y\ndef algoritmo_ingenuo(x, coeficientes):\n    y = 0\n    for i in range(len(coeficientes) - 1, -1, -1):",
+        "detail": "Conceitos Básicos.regra_Horner",
+        "documentation": {}
+    },
+    {
+        "label": "algoritmo_ingenuo",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.regra_Horner",
+        "description": "Conceitos Básicos.regra_Horner",
+        "peekOfCode": "def algoritmo_ingenuo(x, coeficientes):\n    y = 0\n    for i in range(len(coeficientes) - 1, -1, -1):\n        valor_exponente = 1\n        for j in range(i):\n            valor_exponente *= x\n        y += coeficientes[i] * valor_exponente\n    return y\nif __name__ == '__main__':\n    coeficientes = list(map(int, input('Insira os coeficientes de um polinomio: ').split(', ')))",
+        "detail": "Conceitos Básicos.regra_Horner",
+        "documentation": {}
+    },
+    {
+        "label": "somar_binarios",
+        "kind": 2,
+        "importPath": "Conceitos Básicos.soma_binaria",
+        "description": "Conceitos Básicos.soma_binaria",
+        "peekOfCode": "def somar_binarios(a, b):\n    c = []\n    subiu = False\n    for i in range(len(a) - 1, -1, -1):\n        if subiu:\n            if a[i] == 1 == b[i]:\n                subiu = True\n                c.append(1)\n            elif a[i] == 1 and b[i] == 0 or a[i] == 0 and b[i] == 1:\n                subiu = True",
+        "detail": "Conceitos Básicos.soma_binaria",
+        "documentation": {}
+    },
+    {
+        "label": "Node",
+        "kind": 6,
+        "importPath": "Estrutura de Dados Elementares.arvores_binarias",
+        "description": "Estrutura de Dados Elementares.arvores_binarias",
+        "peekOfCode": "class Node():\n    def __init__(self, v) -> None:        \n        self.chave = v\n        self.left = None\n        self.right = None\n    def __str__(self) -> str:\n        esquerda = self.left.chave if self.left else None\n        direita = self.right.chave if self.right else None\n        return f'Chave: {self.chave}, Esquerda: {esquerda}, Direita: {direita}'   \nclass ArvoreBinaria():",
+        "detail": "Estrutura de Dados Elementares.arvores_binarias",
+        "documentation": {}
+    },
+    {
+        "label": "ArvoreBinaria",
+        "kind": 6,
+        "importPath": "Estrutura de Dados Elementares.arvores_binarias",
+        "description": "Estrutura de Dados Elementares.arvores_binarias",
+        "peekOfCode": "class ArvoreBinaria():\n    def __init__(self, r) -> None:\n        self.raiz = r\n    def visitar_elementos(self, e):\n        if e:            \n            self.visitar_elementos(e.left)\n            self.visitar_elementos(e.right)            \n            print(e)\n    def visitar_nao_recursivo(self):\n        s = []",
+        "detail": "Estrutura de Dados Elementares.arvores_binarias",
+        "documentation": {}
+    },
+    {
+        "label": "Deque",
+        "kind": 6,
+        "importPath": "Estrutura de Dados Elementares.deque",
+        "description": "Estrutura de Dados Elementares.deque",
+        "peekOfCode": "class Deque():\n    def __init__(self, values = []) -> None:\n        self.values = values\n        self.inicio = 0\n        self.fim = len(values) if values else 0\n    def adiciona_fim(self, v):\n        self.values.append(v)\n    def adiciona_inicio(self, v):\n        self.values.insert(0, v)\n    def remove_inicio(self):",
+        "detail": "Estrutura de Dados Elementares.deque",
+        "documentation": {}
+    },
+    {
+        "label": "Fila",
+        "kind": 6,
+        "importPath": "Estrutura de Dados Elementares.fila",
+        "description": "Estrutura de Dados Elementares.fila",
+        "peekOfCode": "class Fila():\n    def __init__(self, fila = []) -> None:\n        self.fila = fila\n        self.inicio = fila[0] if fila else 0\n        self.fim = fila[-1] if fila else 0\n    def enqueue(self, x):\n        self.fila.append(x)        \n        self.fim += 1\n    def dequeue(self):            \n        if self.fim > 0:",
+        "detail": "Estrutura de Dados Elementares.fila",
+        "documentation": {}
+    },
+    {
+        "label": "Node",
+        "kind": 6,
+        "importPath": "Estrutura de Dados Elementares.list_ligada",
+        "description": "Estrutura de Dados Elementares.list_ligada",
+        "peekOfCode": "class Node():\n    def __init__(self, v, anterior = None, proximo = None) -> None:\n        self.anterior = anterior\n        self.proximo = proximo\n        self.chave = v\n    def __str__(self) -> str:\n        return f'Chave: {self.chave}, Anterior: {self.anterior}, Próximo: {self.proximo}'\nclass Lista_Duplamente_Ligada():\n    def __init__(self) -> None:        \n        self.inicio = None",
+        "detail": "Estrutura de Dados Elementares.list_ligada",
+        "documentation": {}
+    },
+    {
+        "label": "Lista_Duplamente_Ligada",
+        "kind": 6,
+        "importPath": "Estrutura de Dados Elementares.list_ligada",
+        "description": "Estrutura de Dados Elementares.list_ligada",
+        "peekOfCode": "class Lista_Duplamente_Ligada():\n    def __init__(self) -> None:        \n        self.inicio = None\n        self.size = 0\n    def list_insert(self, v):\n        if self.inicio:\n            pointer = self.inicio\n            while pointer.proximo:\n                pointer = pointer.proximo\n            pointer.proximo = Node(v, pointer)",
+        "detail": "Estrutura de Dados Elementares.list_ligada",
+        "documentation": {}
+    },
+    {
+        "label": "Pilha",
+        "kind": 6,
+        "importPath": "Estrutura de Dados Elementares.pilha",
+        "description": "Estrutura de Dados Elementares.pilha",
+        "peekOfCode": "class Pilha():\n    def __init__(self, valores = []) -> None:\n        self.valores = valores\n        self.topo = len(valores) if valores else 0\n    def is_empty(self):\n        if not self.topo:\n            return True\n        else:\n            return False\n    def push(self, v):",
+        "detail": "Estrutura de Dados Elementares.pilha",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "Medianas e Estatísticas de Ordem.max_min",
+        "description": "Medianas e Estatísticas de Ordem.max_min",
+        "peekOfCode": "def partition(A, p, r):\n    x = A[r]\n    i = p - 1\n    for j in range(p, r):\n        if A[j] <= x:\n            i += 1\n            A[i], A[j] = A[j], A[i]\n    A[i + 1], A[r] = A[r], A[i + 1]\n    if A[p] == A[r - 1]:  # condição para quando todos os elementos são iguais\n        i = (p + r) // 2",
+        "detail": "Medianas e Estatísticas de Ordem.max_min",
+        "documentation": {}
+    },
+    {
+        "label": "randomized_partition",
+        "kind": 2,
+        "importPath": "Medianas e Estatísticas de Ordem.max_min",
+        "description": "Medianas e Estatísticas de Ordem.max_min",
+        "peekOfCode": "def randomized_partition(A, p, r):\n    i = randint(p, r)\n    A[r], A[i] = A[i], A[r]  # trocamos a ultima posicao por um elemento aleatorio\n    return partition(A, p, r)\ndef randomized_select(A, p, r, i):\n    if p ==r:\n        return A[p]\n    q = randomized_partition(A, p, r)\n    k = q - p + 1\n    if i == k:",
+        "detail": "Medianas e Estatísticas de Ordem.max_min",
+        "documentation": {}
+    },
+    {
+        "label": "randomized_select",
+        "kind": 2,
+        "importPath": "Medianas e Estatísticas de Ordem.max_min",
+        "description": "Medianas e Estatísticas de Ordem.max_min",
+        "peekOfCode": "def randomized_select(A, p, r, i):\n    if p ==r:\n        return A[p]\n    q = randomized_partition(A, p, r)\n    k = q - p + 1\n    if i == k:\n        return A[q]\n    elif i < k: \n        return randomized_select(A, p, q - 1, i)\n    else:",
+        "detail": "Medianas e Estatísticas de Ordem.max_min",
+        "documentation": {}
+    },
+    {
+        "label": "min",
+        "kind": 2,
+        "importPath": "Medianas e Estatísticas de Ordem.max_min",
+        "description": "Medianas e Estatísticas de Ordem.max_min",
+        "peekOfCode": "def min(A):\n    min = A[0]\n    for i in A:         \n        if i < min:\n            min = i\n    return min\ndef min_max_simultaneos(A):\n    if len(A) % 2 != 0:\n        min = max = A[0]\n        for i in range(1, len(A) - 1):",
+        "detail": "Medianas e Estatísticas de Ordem.max_min",
+        "documentation": {}
+    },
+    {
+        "label": "min_max_simultaneos",
+        "kind": 2,
+        "importPath": "Medianas e Estatísticas de Ordem.max_min",
+        "description": "Medianas e Estatísticas de Ordem.max_min",
+        "peekOfCode": "def min_max_simultaneos(A):\n    if len(A) % 2 != 0:\n        min = max = A[0]\n        for i in range(1, len(A) - 1):\n            a = A[i]\n            b = A[i + 1]\n            if a > b: \n                if a > max:\n                    max = a\n                if b < min:",
+        "detail": "Medianas e Estatísticas de Ordem.max_min",
+        "documentation": {}
+    },
+    {
+        "label": "bucket_sort",
+        "kind": 2,
+        "importPath": "Ordenação Linear.bucket-sort",
+        "description": "Ordenação Linear.bucket-sort",
+        "peekOfCode": "def bucket_sort(A):    \n    n = len(A)\n    B = [[] for _ in range(n)]\n    for i in range(n):        \n        B[math.floor(n * A[i])].append(A[i])\n    # temos os baldes criados agora, e depois precisamos apenas ordenar cada balde individualmente, e concatená-los\n    print(B)\n    result = []\n    for i in range(n):\n        B[i].sort()",
+        "detail": "Ordenação Linear.bucket-sort",
+        "documentation": {}
+    },
+    {
+        "label": "counting_sort",
+        "kind": 2,
+        "importPath": "Ordenação Linear.counting_sort",
+        "description": "Ordenação Linear.counting_sort",
+        "peekOfCode": "def counting_sort(A, B, k):  # ordenação utilizando contagem    \n    C = [0 for _ in range(k + 1)]    \n    for j in range(len(A)):                \n        C[A[j]] += 1    # contamos quantos de cada elemento j aparecem   \n    # C[i] possui o número de elementos igual a i        \n    for i in range(1, k + 1): \n        C[i] += C[i - 1]\n    # C[i] agora contém o número de elementos menores ou iguais a i    \n    for j in range(len(A) - 1, -1, -1):                   \n        B[C[A[j]] -1] = A[j]",
+        "detail": "Ordenação Linear.counting_sort",
+        "documentation": {}
+    },
+    {
+        "label": "count_min",
+        "kind": 2,
+        "importPath": "Ordenação Linear.counting_sort",
+        "description": "Ordenação Linear.counting_sort",
+        "peekOfCode": "def count_min(A, k):\n    C = [0 for _ in range(k + 1)]    \n    for j in range(len(A)):                \n        C[A[j]] += 1    # contamos quantos de cada elemento j aparecem   \n    # C[i] possui o número de elementos igual a i        \n    for i in range(1, k + 1): \n        C[i] += C[i - 1]\n    return C        \ndef count_subarray(C, a, b):  # conta quantos elementos estão entre os valores a e b no array que foi processado em count_min\n    if a == 0:",
+        "detail": "Ordenação Linear.counting_sort",
+        "documentation": {}
+    },
+    {
+        "label": "count_subarray",
+        "kind": 2,
+        "importPath": "Ordenação Linear.counting_sort",
+        "description": "Ordenação Linear.counting_sort",
+        "peekOfCode": "def count_subarray(C, a, b):  # conta quantos elementos estão entre os valores a e b no array que foi processado em count_min\n    if a == 0:\n        return C[b]\n    else:\n        s = C[b] - C[a - 1]\n        return s\nif __name__ == \"__main__\":\n    a = [randint(0, 20) for _ in range(20)]\n    b = [0 for _ in range(20)]\n    k = max(a)  # ideal é k ser <= que len(a)",
+        "detail": "Ordenação Linear.counting_sort",
+        "documentation": {}
+    },
+    {
+        "label": "max_heapfy",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def max_heapfy(A, i):    \n    l = 2 * i + 1\n    r = 2*i + 2\n    if l < len(A):\n        if A[l] > A[i]:\n            maior = l\n        else:\n            maior = i\n    else:\n        maior = i",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "min_heapfy",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def min_heapfy(A, i):    \n    l = 2 * i + 1\n    r = 2*i + 2\n    if l < len(A):\n        if A[l] <= A[i]:\n            menor = l\n        else:\n            menor = i\n    else:\n        menor = i",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "max_heapfy_loop",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def max_heapfy_loop(A, i, end = -1):\n    if end == -1:\n        end = len(A)\n    B = A[:end]                        \n    while True: \n        l = 2 * i + 1 if 2 * i + 1 < len(B) else None\n        r = 2 * i + 2 if 2 * i  + 2 < len(B) else None\n        if not l and not r:\n            maior = None\n        elif not l and r:",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "build_max_heap",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def build_max_heap(A):\n    for i in range(len(A) // 2, -1, -1):\n        max_heapfy(A, i)    \ndef build_min_heap(A):\n    for i in range(len(A) // 2, -1, -1):\n        min_heapfy(A, i)    \ndef heapsort(A):\n    build_max_heap(A)\n    diminui = 0          \n    for i in range(len(A) - 1, 0, -1):",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "build_min_heap",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def build_min_heap(A):\n    for i in range(len(A) // 2, -1, -1):\n        min_heapfy(A, i)    \ndef heapsort(A):\n    build_max_heap(A)\n    diminui = 0          \n    for i in range(len(A) - 1, 0, -1):\n        diminui -= 1             \n        A[i], A[0] = A[0], A[i]             \n        max_heapfy_loop(A, 0, len(A) + diminui)        ",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "heapsort",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def heapsort(A):\n    build_max_heap(A)\n    diminui = 0          \n    for i in range(len(A) - 1, 0, -1):\n        diminui -= 1             \n        A[i], A[0] = A[0], A[i]             \n        max_heapfy_loop(A, 0, len(A) + diminui)        \ndef heap_maximum(A):  # retorna o maior elemento de um heap maximo\n    return A[0]\ndef heap_minimun(A):",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "heap_maximum",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def heap_maximum(A):  # retorna o maior elemento de um heap maximo\n    return A[0]\ndef heap_minimun(A):\n    return A[0]\ndef heap_extract_max(A):\n    if len(A) < 1:\n        raise Exception(IndexError)\n    max, A[0] = A[0], A[- 1]            \n    A.pop(-1)\n    max_heapfy_loop(A, 0)",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "heap_minimun",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def heap_minimun(A):\n    return A[0]\ndef heap_extract_max(A):\n    if len(A) < 1:\n        raise Exception(IndexError)\n    max, A[0] = A[0], A[- 1]            \n    A.pop(-1)\n    max_heapfy_loop(A, 0)\n    return max        \ndef heap_extract_minimun(A):",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "heap_extract_max",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def heap_extract_max(A):\n    if len(A) < 1:\n        raise Exception(IndexError)\n    max, A[0] = A[0], A[- 1]            \n    A.pop(-1)\n    max_heapfy_loop(A, 0)\n    return max        \ndef heap_extract_minimun(A):\n    if len(A) < 1:\n        pass",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "heap_extract_minimun",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def heap_extract_minimun(A):\n    if len(A) < 1:\n        pass\n    else:\n        min, A[0] = A[0], A[-1]\n        A.pop(-1)\n        min_heapfy(A, 0)\n        return min\ndef heap_increse_key(A, i, chave):\n    if chave < A[i]:",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "heap_increse_key",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def heap_increse_key(A, i, chave):\n    if chave < A[i]:\n        pass\n    else:        \n        while i > 0 and A[i // 2] < chave:\n            A[i] = A[i//2]\n            i = i // 2\n        A[i] = chave\ndef heap_descrese_key(A, i, chave):\n    if chave > A[i]:",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "heap_descrese_key",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def heap_descrese_key(A, i, chave):\n    if chave > A[i]:\n        pass\n    else:\n        A[i] = chave\n        while i > 0 and A[i // 2] > A [i]:\n            A[i], A[i // 2] = A[i // 2], A[i]\n            i = i // 2\ndef max_heap_insert(A, chave):\n    A.append(-inf)",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "max_heap_insert",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def max_heap_insert(A, chave):\n    A.append(-inf)\n    heap_increse_key(A, len(A) - 1, chave)\ndef max_heap_delete(A, i):\n    if len(A) < i:\n        pass\n    chave, A[i] = A[i], A[- 1]            \n    A.pop(-1)\n    max_heapfy_loop(A, i)\n    return chave        ",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "max_heap_delete",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def max_heap_delete(A, i):\n    if len(A) < i:\n        pass\n    chave, A[i] = A[i], A[- 1]            \n    A.pop(-1)\n    max_heapfy_loop(A, i)\n    return chave        \ndef min_heap_insert(A, chave):\n    A.append(inf)\n    heap_descrese_key(A, len(A) - 1, chave)",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "min_heap_insert",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def min_heap_insert(A, chave):\n    A.append(inf)\n    heap_descrese_key(A, len(A) - 1, chave)\ndef build_max_heap_2(A):      \n    B = []  \n    for i in range(0, len(A)):\n        max_heap_insert(B, A[i])\n    return B\nif __name__ == \"__main__\":        \n    heap = [5, 0, 3, 1, 2]    ",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "build_max_heap_2",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.heap",
+        "description": "Ordenação por Heap.heap",
+        "peekOfCode": "def build_max_heap_2(A):      \n    B = []  \n    for i in range(0, len(A)):\n        max_heap_insert(B, A[i])\n    return B\nif __name__ == \"__main__\":        \n    heap = [5, 0, 3, 1, 2]    \n    random_heap = [randint(0, 100) for i in range(5)]    \n    # print(heap)\n    print(random_heap)",
+        "detail": "Ordenação por Heap.heap",
+        "documentation": {}
+    },
+    {
+        "label": "extract_min",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.quadro_young",
+        "description": "Ordenação por Heap.quadro_young",
+        "peekOfCode": "def extract_min(quadro):\n    if quadro[0][0] == None:\n        pass\n    else:\n        linha_original = len(quadro) - 1\n        linha = linha_original\n        coluna_original = len(quadro[0]) - 1\n        coluna = coluna_original\n        while quadro[linha][coluna] == None:                       \n            if linha == 0:",
+        "detail": "Ordenação por Heap.quadro_young",
+        "documentation": {}
+    },
+    {
+        "label": "youngfy",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.quadro_young",
+        "description": "Ordenação por Heap.quadro_young",
+        "peekOfCode": "def youngfy(matriz, i, j, breakpoint = None):\n    direita = [i, j + 1]\n    baixo = [i + 1, j]\n    linha = len(matriz) - 1\n    coluna = len(matriz[0]) - 1                \n    possible = True\n    if breakpoint:\n        if breakpoint[0] < baixo[0]:\n            possible = False\n        elif breakpoint[0] == baixo[0]:",
+        "detail": "Ordenação por Heap.quadro_young",
+        "documentation": {}
+    },
+    {
+        "label": "young_insert",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.quadro_young",
+        "description": "Ordenação por Heap.quadro_young",
+        "peekOfCode": "def young_insert(board, value):\n    linha = len(board) - 1\n    coluna = len(board[0]) - 1\n    young_insert_order(board, value, linha, coluna)\ndef young_insert_order(board, value, linha, coluna):    \n    while True:\n        if linha - 1 < 0:\n            break\n        if board[linha - 1][coluna] == None:\n            linha -= 1",
+        "detail": "Ordenação por Heap.quadro_young",
+        "documentation": {}
+    },
+    {
+        "label": "young_insert_order",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.quadro_young",
+        "description": "Ordenação por Heap.quadro_young",
+        "peekOfCode": "def young_insert_order(board, value, linha, coluna):    \n    while True:\n        if linha - 1 < 0:\n            break\n        if board[linha - 1][coluna] == None:\n            linha -= 1\n        else:\n            break\n    while True:\n        if coluna - 1 < 0:",
+        "detail": "Ordenação por Heap.quadro_young",
+        "documentation": {}
+    },
+    {
+        "label": "young_sort",
+        "kind": 2,
+        "importPath": "Ordenação por Heap.quadro_young",
+        "description": "Ordenação por Heap.quadro_young",
+        "peekOfCode": "def young_sort(board):        \n    for i in range(len(board) - 1, -1, -1):        \n        for j in range(len(board[0]) - 1, -1, -1):              \n            board[i][j], board[0][0] = board[0][0], board[i][j]                        \n            youngfy(board, 0, 0, [i, j])        \n# problema de como encontrar um número de O(m + n) não resolvido\nif __name__ == \"__main__\":\n    quadro_young = [\n        [1, 2, 3],\n        [4, 5, 6],",
+        "detail": "Ordenação por Heap.quadro_young",
+        "documentation": {}
+    },
+    {
+        "label": "bcolors",
+        "kind": 6,
+        "importPath": "Programação Dinâmica.utils.red_black_tree",
+        "description": "Programação Dinâmica.utils.red_black_tree",
+        "peekOfCode": "class bcolors:\n    RED = '\\033[93m'\n    BLACK = '\\033[0m'    \nclass Node():\n    def __init__(self, data) -> None:\n        self.data = data\n        self.parent = None\n        self.left = None\n        self.right = None\n        self.color = 1  # 1 -> Red, 0 -> Black",
+        "detail": "Programação Dinâmica.utils.red_black_tree",
+        "documentation": {}
+    },
+    {
+        "label": "Node",
+        "kind": 6,
+        "importPath": "Programação Dinâmica.utils.red_black_tree",
+        "description": "Programação Dinâmica.utils.red_black_tree",
+        "peekOfCode": "class Node():\n    def __init__(self, data) -> None:\n        self.data = data\n        self.parent = None\n        self.left = None\n        self.right = None\n        self.color = 1  # 1 -> Red, 0 -> Black\nclass RedBlackTree():\n    def __init__(self) -> None:\n        self.TNULL = Node(0)",
+        "detail": "Programação Dinâmica.utils.red_black_tree",
+        "documentation": {}
+    },
+    {
+        "label": "RedBlackTree",
+        "kind": 6,
+        "importPath": "Programação Dinâmica.utils.red_black_tree",
+        "description": "Programação Dinâmica.utils.red_black_tree",
+        "peekOfCode": "class RedBlackTree():\n    def __init__(self) -> None:\n        self.TNULL = Node(0)\n        self.TNULL.color = 0\n        self.TNULL.left = None\n        self.TNULL.right = None\n        self.root = self.TNULL\n    def __pre_order_helper(self, node:Node):\n        if node != self.TNULL:\n            sys.stdout.write(node.data + \" \")",
+        "detail": "Programação Dinâmica.utils.red_black_tree",
+        "documentation": {}
+    },
+    {
+        "label": "cut_rod",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.corte_hastes",
+        "description": "Programação Dinâmica.corte_hastes",
+        "peekOfCode": "def cut_rod(p, n):  # p é a tabela de preços, e n o tamanho do corte máximo\n    if n == 0:\n        return 0\n    q = - inf\n    for i in range(n):        \n        q = max(q, p[i] + cut_rod(p, n - (i + 1)))\n    return q\n# Essa solução é ineficiente, pois chamamos os mesmos parâmetros diversas vezes\n# Programação dinâmica de cima para baixo\ndef memoized_cut_rod(p, n):",
+        "detail": "Programação Dinâmica.corte_hastes",
+        "documentation": {}
+    },
+    {
+        "label": "memoized_cut_rod",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.corte_hastes",
+        "description": "Programação Dinâmica.corte_hastes",
+        "peekOfCode": "def memoized_cut_rod(p, n):\n    r = [- inf for _ in range(n + 1)]    \n    return memoized_cut_rod_aux(p, n, r)\ndef memoized_cut_rod_aux(p, n, r):\n    if r[n] >= 0:\n        return r[n]\n    q = 0 if n == 0 else - inf\n    for i in range(n):\n        q = max(q, p[i] + memoized_cut_rod_aux(p, n - (i + 1), r))\n    r[n] = q  # salvamos a solução encontrada para não ser necessário recálculo",
+        "detail": "Programação Dinâmica.corte_hastes",
+        "documentation": {}
+    },
+    {
+        "label": "memoized_cut_rod_aux",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.corte_hastes",
+        "description": "Programação Dinâmica.corte_hastes",
+        "peekOfCode": "def memoized_cut_rod_aux(p, n, r):\n    if r[n] >= 0:\n        return r[n]\n    q = 0 if n == 0 else - inf\n    for i in range(n):\n        q = max(q, p[i] + memoized_cut_rod_aux(p, n - (i + 1), r))\n    r[n] = q  # salvamos a solução encontrada para não ser necessário recálculo\n    return q\ndef bottom_up_cut_rod(p, n):\n    r = [-inf for _ in range(n + 1)]",
+        "detail": "Programação Dinâmica.corte_hastes",
+        "documentation": {}
+    },
+    {
+        "label": "bottom_up_cut_rod",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.corte_hastes",
+        "description": "Programação Dinâmica.corte_hastes",
+        "peekOfCode": "def bottom_up_cut_rod(p, n):\n    r = [-inf for _ in range(n + 1)]\n    r[0] = 0    \n    for j in range(1, n + 1):\n        q = -inf\n        for i in range(0, j):            \n            q = max(q, p[i] + r[j - (i + 1)])  # calculamos todos os subproblemas anteriores de n, antes de calcular o problema n\n        r[j] = q    \n    return r[n]\ndef extended_bottom_up_cut_rod(p, n):  # registramos o caminho de escolhas tomadas",
+        "detail": "Programação Dinâmica.corte_hastes",
+        "documentation": {}
+    },
+    {
+        "label": "extended_bottom_up_cut_rod",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.corte_hastes",
+        "description": "Programação Dinâmica.corte_hastes",
+        "peekOfCode": "def extended_bottom_up_cut_rod(p, n):  # registramos o caminho de escolhas tomadas\n    r = [-inf for _ in range(n + 1)]\n    s = [-inf for _ in range(n + 1)]\n    r[0] = 0    \n    for j in range(1, n + 1):\n        q = -inf\n        for i in range(0, j):            \n            if q < p[i] + r[j - (i + 1)]:\n                q = p[i] + r[j - (i + 1)]\n                s[j] = i",
+        "detail": "Programação Dinâmica.corte_hastes",
+        "documentation": {}
+    },
+    {
+        "label": "lcs_length",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.lcs",
+        "description": "Programação Dinâmica.lcs",
+        "peekOfCode": "def lcs_length(x:str, y:str):        \n    m = len(x)\n    n = len(y)    \n    b = [['0' for _ in range (n)] for __ in range(m)]\n    c = [[0 for _ in range (n + 1)] for __ in range(m + 1)]\n    for i in range(m):\n        for j in range(n):\n            if x[i] == y[j]:\n                c[i][j] = c[i - 1][j - 1] + 1\n                b[i][j] = \"🡤\"",
+        "detail": "Programação Dinâmica.lcs",
+        "documentation": {}
+    },
+    {
+        "label": "print_lcs",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.lcs",
+        "description": "Programação Dinâmica.lcs",
+        "peekOfCode": "def print_lcs(b, x, i, j):\n    if i == -1 or j == -1:\n        return\n    if b[i][j]  == \"🡤\":\n        print_lcs(b, x, i - 1, j - 1)\n        print(x[i])\n    elif b[i][j] == \"🡡\":\n        print_lcs(b, x, i - 1, j)\n    else:\n        print_lcs(b, x, i, j - 1)",
+        "detail": "Programação Dinâmica.lcs",
+        "documentation": {}
+    },
+    {
+        "label": "recursive_matrix_chain",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.mult_cadeias_matrizes",
+        "description": "Programação Dinâmica.mult_cadeias_matrizes",
+        "peekOfCode": "def recursive_matrix_chain(p, i, j):     # solução ineficiente de tempo exponencial\n    global y\n    if i == j:\n        return 0        \n    for k in range(i, j - 1):\n        q = recursive_matrix_chain(p, i, k) + recursive_matrix_chain(p, k + 1, j) + (p[i - 1] * p[k] *p[j])\n        if q < y[i][j]:\n            y[i][j] = q\n    return y[i][j]\ndef memoized_matrix_chain(p):",
+        "detail": "Programação Dinâmica.mult_cadeias_matrizes",
+        "documentation": {}
+    },
+    {
+        "label": "memoized_matrix_chain",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.mult_cadeias_matrizes",
+        "description": "Programação Dinâmica.mult_cadeias_matrizes",
+        "peekOfCode": "def memoized_matrix_chain(p):\n    n = len(p) - 1\n    m = [[inf for _ in range(n)] for __ in range(n)]\n    return \ndef lookup_chain(m, p, i, j):\n    if m[i][j] < inf:\n        return m[i][j]\n    if i == j:\n        m[i][j] == 0\n    else:",
+        "detail": "Programação Dinâmica.mult_cadeias_matrizes",
+        "documentation": {}
+    },
+    {
+        "label": "lookup_chain",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.mult_cadeias_matrizes",
+        "description": "Programação Dinâmica.mult_cadeias_matrizes",
+        "peekOfCode": "def lookup_chain(m, p, i, j):\n    if m[i][j] < inf:\n        return m[i][j]\n    if i == j:\n        m[i][j] == 0\n    else:\n        for k in range(i, j - 1):\n            q = lookup_chain(m, p, i, k) + lookup_chain(m, p, k + 1, j) + (p[i - 1] * p[k] * p[j])\n            if q < m[i][j]:\n                m[i][j] = q",
+        "detail": "Programação Dinâmica.mult_cadeias_matrizes",
+        "documentation": {}
+    },
+    {
+        "label": "matrix_chain_order",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.mult_cadeias_matrizes",
+        "description": "Programação Dinâmica.mult_cadeias_matrizes",
+        "peekOfCode": "def matrix_chain_order(p):\n    # p -> lista das dimensões das matrizes em ordem sem repetição\n    n = len(p) - 1\n    m = [[0 for _ in range(n)] for _ in range(n)]\n    s = [[0 for _ in range(n)] for _ in range(n)]\n    for l in range(2, n + 1):  # tamanho de cada encadeamento\n        for i in range(1, n - l + 2):  # início\n            j = i + l - 1  # fim\n            m[i - 1][j - 1] = inf\n            for k in range(i, j):",
+        "detail": "Programação Dinâmica.mult_cadeias_matrizes",
+        "documentation": {}
+    },
+    {
+        "label": "print_optimal_parens",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.mult_cadeias_matrizes",
+        "description": "Programação Dinâmica.mult_cadeias_matrizes",
+        "peekOfCode": "def print_optimal_parens(s, i, j):            \n    if i == j:\n        print (f\"A{i + 1}\", end=\"\")\n    else:        \n        print(\"( \", end=\"\")\n        print_optimal_parens(s, i, s[i][j] - 1)\n        print_optimal_parens(s, s[i][j], j)\n        print(\" )\", end=\"\") \nif __name__ == \"__main__\":\n    p = (30, 35, 15, 5, 10, 20, 25)",
+        "detail": "Programação Dinâmica.mult_cadeias_matrizes",
+        "documentation": {}
+    },
+    {
+        "label": "optimal_bst",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.optimal_bst",
+        "description": "Programação Dinâmica.optimal_bst",
+        "peekOfCode": "def optimal_bst(p, q, n):\n    e = [['no' for j in range(n)] for i in range(n + 1)]\n    w = [['no' for j in range(n + 1)] for i in range(n + 2)]\n    raiz = [['no' for j in range(n)] for i in range(n)]\n    for i in range(1, n + 1):        \n        e[i][i - 1] = q[i - 1]\n        w[i][i - 1] = q[i - 1]\n    for l in range(1, n):\n        for i in range(1, n - l + 1):\n            j = i + l - 1",
+        "detail": "Programação Dinâmica.optimal_bst",
+        "documentation": {}
+    },
+    {
+        "label": "contruct_optimal_bst",
+        "kind": 2,
+        "importPath": "Programação Dinâmica.optimal_bst",
+        "description": "Programação Dinâmica.optimal_bst",
+        "peekOfCode": "def contruct_optimal_bst(raiz:List[List[int]]) -> list:    \n    order = []\n    root = raiz[-1][-1]\n    order.append(root)\n    end = root\n    while end != 0:\nif __name__ == \"__main__\":\n    p = [0, 0.15, 0.10, 0.05, 0.10, 0.20]\n    q = [0.05, 0.10, 0.05, 0.05, 0.05, 0.10]\n    n = 6",
+        "detail": "Programação Dinâmica.optimal_bst",
+        "documentation": {}
+    },
+    {
+        "label": "quicksort",
+        "kind": 2,
+        "importPath": "Quicksort.quicksort",
+        "description": "Quicksort.quicksort",
+        "peekOfCode": "def quicksort(A, p, r):\n    if p < r:\n        q = randomized_partition(A, p, r)\n        quicksort(A, p, q - 1)\n        quicksort(A, q + 1, r)\ndef partition(A, p, r):\n    x = A[r]\n    i = p - 1\n    for j in range(p, r):\n        if A[j] <= x:",
+        "detail": "Quicksort.quicksort",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "Quicksort.quicksort",
+        "description": "Quicksort.quicksort",
+        "peekOfCode": "def partition(A, p, r):\n    x = A[r]\n    i = p - 1\n    for j in range(p, r):\n        if A[j] <= x:\n            i += 1\n            A[i], A[j] = A[j], A[i]\n    A[i + 1], A[r] = A[r], A[i + 1]\n    if A[p] == A[r - 1]:  # condição para quando todos os elementos são iguais\n        i = (p + r) // 2",
+        "detail": "Quicksort.quicksort",
+        "documentation": {}
+    },
+    {
+        "label": "randomized_partition",
+        "kind": 2,
+        "importPath": "Quicksort.quicksort",
+        "description": "Quicksort.quicksort",
+        "peekOfCode": "def randomized_partition(A, p, r):\n    i = randint(p, r)\n    A[r], A[i] = A[i], A[r]  # trocamos a ultima posicao por um elemento aleatorio\n    return partition(A, p, r)\ndef hoare_partition(A, p, r):\n    print(\"hey ey\")\n    x = A[p]\n    i = p - 1\n    j = r + 1\n    while True:        ",
+        "detail": "Quicksort.quicksort",
+        "documentation": {}
+    },
+    {
+        "label": "hoare_partition",
+        "kind": 2,
+        "importPath": "Quicksort.quicksort",
+        "description": "Quicksort.quicksort",
+        "peekOfCode": "def hoare_partition(A, p, r):\n    print(\"hey ey\")\n    x = A[p]\n    i = p - 1\n    j = r + 1\n    while True:        \n        while True:\n            j -= 1\n            if A[j] <= x:\n                break",
+        "detail": "Quicksort.quicksort",
+        "documentation": {}
+    },
+    {
+        "label": "quicksort_decreasing",
+        "kind": 2,
+        "importPath": "Quicksort.quicksort",
+        "description": "Quicksort.quicksort",
+        "peekOfCode": "def quicksort_decreasing(A, p, r):\n    if p < r:\n        q = partition_decreasing(A, p, r)\n        quicksort_decreasing(A, p, q - 1)\n        quicksort_decreasing(A, q + 1, r)\ndef partition_decreasing(A, p, r):\n    x = A[r]\n    i = p - 1\n    for j in range(p, r):\n        if A[j] >= x:",
+        "detail": "Quicksort.quicksort",
+        "documentation": {}
+    },
+    {
+        "label": "partition_decreasing",
+        "kind": 2,
+        "importPath": "Quicksort.quicksort",
+        "description": "Quicksort.quicksort",
+        "peekOfCode": "def partition_decreasing(A, p, r):\n    x = A[r]\n    i = p - 1\n    for j in range(p, r):\n        if A[j] >= x:\n            i += 1\n            A[i], A[j] = A[j], A[i]\n    A[i + 1], A[r] = A[r], A[i + 1]\n    if A[p] == A[r - 1]:  # condição para quando todos os elementos são iguais\n        i = (p + r) // 2",
+        "detail": "Quicksort.quicksort",
+        "documentation": {}
+    },
+    {
+        "label": "tail_recursive_quicksort",
+        "kind": 2,
+        "importPath": "Quicksort.quicksort",
+        "description": "Quicksort.quicksort",
+        "peekOfCode": "def tail_recursive_quicksort(A, p, r):\n    while p < r:\n        q = partition(A, p, r)  \n        tail_recursive_quicksort(A, p, q - 1)\n        p = q + 1\nif __name__ == \"__main__\":\n    A = list({randint(0, 100)  for _ in range(11)})\n    print(A)\n    quicksort(A, 0, len(A) - 1)    \n    print(A)",
+        "detail": "Quicksort.quicksort",
+        "documentation": {}
+    },
+    {
+        "label": "linear_maximum_subarray",
+        "kind": 2,
+        "importPath": "Recursividade.linear_maximum_subarray",
+        "description": "Recursividade.linear_maximum_subarray",
+        "peekOfCode": "def linear_maximum_subarray(A):\n    max_subarry = actual_max_subarray = A[0]\n    begin = end = b = 0    \n    for j in range(1, len(A)):\n        actual_max_subarray = max(A[j], actual_max_subarray + A[j])\n        if actual_max_subarray > max_subarry:\n            max_subarry = actual_max_subarray\n            end = j\n            begin = b\n        if actual_max_subarray < 0:",
+        "detail": "Recursividade.linear_maximum_subarray",
+        "documentation": {}
+    },
+    {
+        "label": "find_max_crossing_subarray",
+        "kind": 2,
+        "importPath": "Recursividade.maximum_subarray",
+        "description": "Recursividade.maximum_subarray",
+        "peekOfCode": "def find_max_crossing_subarray(A, low, mid, high):\n    soma_left = - math.inf\n    soma = 0\n    for i in range(mid, low - 1, -1):\n        soma += A[i]\n        if soma > soma_left:\n            soma_left = soma\n            max_left = i\n    soma_right = - math.inf\n    soma = 0",
+        "detail": "Recursividade.maximum_subarray",
+        "documentation": {}
+    },
+    {
+        "label": "maximum_subarray",
+        "kind": 2,
+        "importPath": "Recursividade.maximum_subarray",
+        "description": "Recursividade.maximum_subarray",
+        "peekOfCode": "def maximum_subarray(A, low, high):\n    if low == high:\n        return (low, high, A[low])\n    else:\n        mid = (low + high ) // 2\n        left_low, left_high, left_sum = maximum_subarray(A, low, mid)\n        right_low, right_high, right_sum = maximum_subarray(A, mid + 1, high)\n        cross_low, cross_high, cross_sum = find_max_crossing_subarray(A, low, mid, high)\n        if cross_sum <= left_sum >= right_sum:\n            return (left_low, left_high, left_sum)",
+        "detail": "Recursividade.maximum_subarray",
+        "documentation": {}
+    },
+    {
+        "label": "maximum_subarray_fused",
+        "kind": 2,
+        "importPath": "Recursividade.maximum_subarray",
+        "description": "Recursividade.maximum_subarray",
+        "peekOfCode": "def maximum_subarray_fused(A, low, high):\n    if high - low <= 50:\n        tamanho_vetor = len(A)\n        best_soma = - math.inf\n        for i in range(tamanho_vetor):\n            soma = 0\n            for j in range(i, tamanho_vetor):\n                soma += A[j]\n                if soma > best_soma:\n                    best_soma = soma",
+        "detail": "Recursividade.maximum_subarray",
+        "documentation": {}
+    },
+    {
+        "label": "maximum_subarray",
+        "kind": 2,
+        "importPath": "Recursividade.maximum_subarray_bruto",
+        "description": "Recursividade.maximum_subarray_bruto",
+        "peekOfCode": "def maximum_subarray(A):\n    tamanho_vetor = len(A)\n    best_soma = - math.inf\n    for i in range(tamanho_vetor):\n        soma = 0\n        for j in range(i, tamanho_vetor):\n            soma += A[j]\n            if soma > best_soma:\n                best_soma = soma\n                begin = i",
+        "detail": "Recursividade.maximum_subarray_bruto",
+        "documentation": {}
+    },
+    {
+        "label": "multiply_square_matrix",
+        "kind": 2,
+        "importPath": "Recursividade.square_matrix_multiply",
+        "description": "Recursividade.square_matrix_multiply",
+        "peekOfCode": "def multiply_square_matrix(A, B):\n    n = len(A[0])\n    c = [ [0 for _ in range(n)] for __ in range(n)]\n    for i in range(n):\n        for j in range(n):\n            for k in range(n):\n                c[i][j] += A[i][k] * B[k][j]\n    return c\ndef subtract_matrix(A, B, n):\n    c = [[0 for __ in range(n)] for _ in range(n)]",
+        "detail": "Recursividade.square_matrix_multiply",
+        "documentation": {}
+    },
+    {
+        "label": "subtract_matrix",
+        "kind": 2,
+        "importPath": "Recursividade.square_matrix_multiply",
+        "description": "Recursividade.square_matrix_multiply",
+        "peekOfCode": "def subtract_matrix(A, B, n):\n    c = [[0 for __ in range(n)] for _ in range(n)]\n    for i in range(n):\n        for j in range(n):\n            c[i][j] = A[i][j] - B[i][j]\n    return c\ndef add_matrix(A, B, n):\n    c = [[0 for __ in range(n)] for _ in range(n)]\n    for i in range(n):\n        for j in range(n):",
+        "detail": "Recursividade.square_matrix_multiply",
+        "documentation": {}
+    },
+    {
+        "label": "add_matrix",
+        "kind": 2,
+        "importPath": "Recursividade.square_matrix_multiply",
+        "description": "Recursividade.square_matrix_multiply",
+        "peekOfCode": "def add_matrix(A, B, n):\n    c = [[0 for __ in range(n)] for _ in range(n)]\n    for i in range(n):\n        for j in range(n):\n            c[i][j] = A[i][j] + B[i][j]\n    return c\ndef regularizate(A, B, n):\n    next_2 = ceil(log2(n))\n    Az = [[0 for _ in range(2 ** next_2)] for _ in range(2 ** next_2)]\n    Bz = [[0 for _ in range(2 ** next_2)] for _ in range(2 ** next_2)]",
+        "detail": "Recursividade.square_matrix_multiply",
+        "documentation": {}
+    },
+    {
+        "label": "regularizate",
+        "kind": 2,
+        "importPath": "Recursividade.square_matrix_multiply",
+        "description": "Recursividade.square_matrix_multiply",
+        "peekOfCode": "def regularizate(A, B, n):\n    next_2 = ceil(log2(n))\n    Az = [[0 for _ in range(2 ** next_2)] for _ in range(2 ** next_2)]\n    Bz = [[0 for _ in range(2 ** next_2)] for _ in range(2 ** next_2)]\n    for i in range(n):\n        for j in range(n):\n            Az[i][j] = A[i][j]\n            Bz[i][j] = B[i][j]    \n    nz = next_2 * 2\n    return Az, Bz, nz",
+        "detail": "Recursividade.square_matrix_multiply",
+        "documentation": {}
+    },
+    {
+        "label": "straussen_matrix",
+        "kind": 2,
+        "importPath": "Recursividade.square_matrix_multiply",
+        "description": "Recursividade.square_matrix_multiply",
+        "peekOfCode": "def straussen_matrix(A, B, n):\n    if n == 1:\n        c = [[0]]\n        c[0][0] = A[0][0] * B[0][0]\n        return c\n    if log2(n) < ceil(log2(n)):\n        A, B, n = regularizate(A, B, n)\n    c = [[0 for _ in range(n)] for __ in range(n)]\n    k = n // 2\n    a11 = [[0 for _ in range(k)] for __ in range(k)] ",
+        "detail": "Recursividade.square_matrix_multiply",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "venv.Scripts.easy_install-3.8-script",
+        "description": "venv.Scripts.easy_install-3.8-script",
+        "peekOfCode": "__requires__ = 'setuptools==40.8.0'\nimport re\nimport sys\nfrom pkg_resources import load_entry_point\nif __name__ == '__main__':\n    sys.argv[0] = re.sub(r'(-script\\.pyw?|\\.exe)?$', '', sys.argv[0])\n    sys.exit(\n        load_entry_point('setuptools==40.8.0', 'console_scripts', 'easy_install-3.8')()\n    )",
+        "detail": "venv.Scripts.easy_install-3.8-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "venv.Scripts.easy_install-script",
+        "description": "venv.Scripts.easy_install-script",
+        "peekOfCode": "__requires__ = 'setuptools==40.8.0'\nimport re\nimport sys\nfrom pkg_resources import load_entry_point\nif __name__ == '__main__':\n    sys.argv[0] = re.sub(r'(-script\\.pyw?|\\.exe)?$', '', sys.argv[0])\n    sys.exit(\n        load_entry_point('setuptools==40.8.0', 'console_scripts', 'easy_install')()\n    )",
+        "detail": "venv.Scripts.easy_install-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "venv.Scripts.pip-script",
+        "description": "venv.Scripts.pip-script",
+        "peekOfCode": "__requires__ = 'pip==19.0.3'\nimport re\nimport sys\nfrom pkg_resources import load_entry_point\nif __name__ == '__main__':\n    sys.argv[0] = re.sub(r'(-script\\.pyw?|\\.exe)?$', '', sys.argv[0])\n    sys.exit(\n        load_entry_point('pip==19.0.3', 'console_scripts', 'pip')()\n    )",
+        "detail": "venv.Scripts.pip-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "venv.Scripts.pip3-script",
+        "description": "venv.Scripts.pip3-script",
+        "peekOfCode": "__requires__ = 'pip==19.0.3'\nimport re\nimport sys\nfrom pkg_resources import load_entry_point\nif __name__ == '__main__':\n    sys.argv[0] = re.sub(r'(-script\\.pyw?|\\.exe)?$', '', sys.argv[0])\n    sys.exit(\n        load_entry_point('pip==19.0.3', 'console_scripts', 'pip3')()\n    )",
+        "detail": "venv.Scripts.pip3-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "venv.Scripts.pip3.8-script",
+        "description": "venv.Scripts.pip3.8-script",
+        "peekOfCode": "__requires__ = 'pip==19.0.3'\nimport re\nimport sys\nfrom pkg_resources import load_entry_point\nif __name__ == '__main__':\n    sys.argv[0] = re.sub(r'(-script\\.pyw?|\\.exe)?$', '', sys.argv[0])\n    sys.exit(\n        load_entry_point('pip==19.0.3', 'console_scripts', 'pip3.8')()\n    )",
+        "detail": "venv.Scripts.pip3.8-script",
+        "documentation": {}
+    }
+]

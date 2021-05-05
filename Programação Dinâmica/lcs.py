@@ -1,8 +1,6 @@
 def lcs_length(x:str, y:str):        
     m = len(x)
-    n = len(y)
-
-    print(m, n)
+    n = len(y)    
 
     b = [['0' for _ in range (n)] for __ in range(m)]
     c = [[0 for _ in range (n + 1)] for __ in range(m + 1)]
@@ -36,14 +34,12 @@ def print_lcs(b, x, i, j):
 
 if __name__ == "__main__":
     x = "abcbdab"
-    y = "bdcaba"
-
-    c, b = lcs_length(x, y)        
-
-    print(c)
-
-    print(c[6][5])
-    print(b)
-
+    y = "bdcaba"    
+    c, b = lcs_length(x, y)                
     print_lcs(b, x, len(x) - 1, len(y) - 1)
+
+    t1 = '10010101'
+    t2 = '010110110'
+    c, b = lcs_length(t1, t2)                
+    print_lcs(b, t1, len(t1) - 1, len(t2) - 1)
 
