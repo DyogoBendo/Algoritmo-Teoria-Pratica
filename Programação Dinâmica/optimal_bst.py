@@ -1,6 +1,6 @@
 from pprint import pprint
 from math import inf
-from utils import red_black_tree
+from utils import bst
 from typing import List
 
 def optimal_bst(p, q, n):
@@ -74,11 +74,10 @@ if __name__ == "__main__":
 
     o = contruct_optimal_bst(raiz)
         
-    bst = red_black_tree.RedBlackTree()    
+    bst = bst.BST()    
     for r in o:
-        bst.insert(r)
-        bst.pretty_print()
-    bst.pretty_print()
+        bst.insert(r)        
+    bst.prettyPrint()    
 
 
     
