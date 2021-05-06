@@ -10,6 +10,18 @@ def recursive_activity_selector(a, r:list, k, n):
     return r
 
 
+def greedy_activity_selector(a):
+    n = len(a)    
+    A = [a[0]]
+    k = 0
+    for m in range(1, n):
+        if a[m]["start"]>= a[k]["finish"]:
+            A.append(a[m])
+            k = m
+    
+    return A
+
+
 if __name__ == "__main__":
     a = []                    
     d = {"start": 0,"finish": 0}
@@ -39,6 +51,14 @@ if __name__ == "__main__":
     
     r = []
     r = recursive_activity_selector(a, r, 0, 11)
+    for b in r:
+        for k, v in b.items():                        
+            print(k, v)
+        print("-"*10)    
+    a.pop(0)
+
+    print("Loop:\n")
+    r = greedy_activity_selector(a)
     for a in r:
         for k, v in a.items():                        
             print(k, v)
