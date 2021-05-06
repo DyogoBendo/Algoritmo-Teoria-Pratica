@@ -53,9 +53,6 @@ def contruct_optimal_bst(raiz:List[List[int]]) -> list:
     helper_optimal_bst(raiz, order, root, len(raiz[0]) - 1)
 
     return order
-        
-        
-
 
 
 if __name__ == "__main__":
