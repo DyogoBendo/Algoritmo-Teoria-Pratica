@@ -7,10 +7,11 @@ class Fila():
     def enqueue(self, x):
         self.fila.append(x)        
         self.fim += 1
+        self.fila.sort()
     
     def dequeue(self):            
         if self.fim > 0:
-            self.fim -= 1
+            self.fim -= 1            
             return self.fila.pop(0)
         else:
             raise Exception("A fila já está vazia")
@@ -25,12 +26,19 @@ class Node():
     def __str__(self) -> str:
         txt = f"Valor: {self.v}, Frequência: {self.freq}"
         return txt
+    
+    def __eq__(self, other):
+        return self.freq == other.freq
+    def __lt__(self, other):
+        return self.freq < other.freq
+    def __gt__(self, other):
+        return self.freq > other.freq
 
 def huffman(C) -> Node:
     n = len(C)
     Q = Fila(C)
     for _ in range(n - 1):      
-        z = Node()
+        z = Node()        
         z.left = x = Q.dequeue()
         z.right = y = Q.dequeue()
         z.freq = x.freq + y.freq
@@ -44,8 +52,8 @@ if __name__ == "__main__":
     c = Node("c", 12)
     d = Node("d", 16)
     e = Node("e", 9)
-    f = Node("f", 5)    
-    alfabeto = [a, b, c, d, e, f]
+    f = Node("f", 5)        
+    alfabeto = [f, e, c, b, d, a]
     raiz = huffman(alfabeto)
     print(raiz, raiz.left, raiz.right)
 
