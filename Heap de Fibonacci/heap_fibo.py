@@ -104,6 +104,34 @@ class Fib_Heap():
                 self.__consolidate()
             self.n -= 1
         return z
-
+    
     def __consolidate(self):
-        
+        a = [None for _ in range(self.n)]
+        for w in self.raizes:
+            x = w
+            d = x.grau
+            while a[d] != None:
+                y = a[d]
+                if x.chave > y.chave:
+                    x, y = y, x
+                    self.__fib_heap_link(y, x)
+                    a[d] = None
+                    d += 1
+            a[d] = x 
+        self.min = None
+        for i in range(self.n):
+            if a[i] != None:
+                if self.min == None:
+                    self.raizes = Lista_Duplamente_Ligada()
+                    self.raizes.list_insert(a[i])
+                else:
+                    self.raizes.list_insert(a[i])
+                    if a[i].chave < self.min.chave:
+                        self.min = a[i]
+    
+    def __fib_heap_link(self, y:Node, x:Node):
+        self.raizes.list_delete(y)
+        x.grau += 1
+        x.filho.append(y)
+        y.marca = False
+                
