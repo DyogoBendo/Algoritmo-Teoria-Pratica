@@ -134,4 +134,31 @@ class Fib_Heap():
         x.grau += 1
         x.filho.append(y)
         y.marca = False
-                
+    
+    def decrease_key(self, x:Node, k):
+        if k > x.chave:
+            raise "Nova chave é maior que a atual"
+        x.chave = k
+        y = x.p
+
+        if y != None and x.chave < y.chave:
+            self.__cut(x, y)
+            self.__cascading_cut(y)
+        if x.chave < self.min.chave:
+            self.min = x
+    
+    def __cut(self, x, y:Node):
+        y.filho.remove(x)
+        y.grau -= 1
+        self.raizes.list_insert(x)
+        x.p = None
+        x.marca = None
+    
+    def __cascading_cut(self, y):
+        z = y.p
+        if z is not None:
+            if y.marca is False:
+                y.marca = True
+            else:
+                self.__cut(y, z)
+                self.__cascading_cut(z)
