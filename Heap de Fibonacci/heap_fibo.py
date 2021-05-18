@@ -1,3 +1,5 @@
+from math import inf
+
 class Node():
     def __init__(self, k) -> None:
         self.chave = k
@@ -162,3 +164,6 @@ class Fib_Heap():
             else:
                 self.__cut(y, z)
                 self.__cascading_cut(z)
+    def delete(self, x):
+        self.decrease_key(x, -inf)
+        self.extract_min()
