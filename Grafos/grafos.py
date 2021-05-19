@@ -8,15 +8,28 @@ class Node:
         self.d = inf
         self.p = None
         self.k = k
+        self.f = 0
+    
+    def __str__(self) -> str:
+        p = ' Sem pai' if self.p is None else self.p.k
+        txt = f'Valor: {self.k}, Cor: {self.cor}, Encontrado: {self.d}, Finalizado: {self.f}, Pai: {p}'
+        return txt
 
 class Graph:
 
-    def __init__(self) -> None:
+    def __init__(self) -> None:        
         self.graph = defaultdict(list)
+        self.vertices = []
 
 
     def addEdge(self, u:Node, v:Node):
         self.graph[u.k].append(v)
+        self.addVertice(u)
+        self.addVertice(v)
+    
+    def addVertice(self, v:Node):
+        if v not in self.vertices:
+            self.vertices.append(v)
 
 
     def bfs(self, s:Node):
@@ -44,6 +57,29 @@ class Graph:
             print("↓")
             print(v.k)
     
+
+    def dfs(self):
+        global tempo
+        tempo = 0
+        for u in self.vertices:
+            if u.cor == 'branco':
+                self.__dfs_visit(u)
+    
+
+    def __dfs_visit(self, u:Node):
+        global tempo
+        tempo += 1
+        u.d = tempo
+        u.cor = 'cinzento'
+        for v in self.graph[u.k]:
+            if v.cor == 'branco':
+                v.p = u
+                self.__dfs_visit(v)
+        u.cor = 'preto'
+        tempo += 1
+        u.f = tempo
+
+
 if __name__ == '__main__':
     g = Graph()
     n0 = Node(0)
@@ -61,6 +97,10 @@ if __name__ == '__main__':
 
     print ("Following is Breadth First Traversal"
                     " (starting from vertex 2)")
-    g.bfs(n2)
-    g.print_path(n2, n4)
+    # g.bfs(n2)
+    # g.print_path(n2, n4)
+
+    g.dfs()
+    for v in g.vertices:
+        print(v)
         
