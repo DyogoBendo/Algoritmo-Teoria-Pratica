@@ -32,7 +32,7 @@ class Graph:
             self.vertices.append(v)
 
 
-    def bfs(self, s:Node):
+    def bfs(self, s:Node): # breadth first search 
         s.cor = 'cinza'        
         s.d = 0        
         queue = []
@@ -58,7 +58,7 @@ class Graph:
             print(v.k)
     
 
-    def dfs(self):
+    def dfs(self): # depth first search
         global tempo
         tempo = 0
         for u in self.vertices:
@@ -79,6 +79,33 @@ class Graph:
         tempo += 1
         u.f = tempo
 
+    def dfs_topological(self):
+        global tempo, lista_ligada
+        tempo = 0
+        lista_ligada = []        
+        for u in self.vertices:
+            if u.cor == 'branco':
+                self.__dfs_topological_visit(u)
+        return lista_ligada
+
+    def __dfs_topological_visit(self, u:Node):
+        global tempo, lista_ligada
+        tempo += 1
+        u.d = tempo
+        u.cor = 'cinzento'
+        for v in self.graph[u.k]:
+            if v.cor == 'branco':
+                v.p = u
+                self.__dfs_topological_visit(v)
+        u.cor = 'preto'
+        lista_ligada.insert(0, u)        
+        tempo += 1
+        u.f = tempo
+
+    def topological_sort(self):
+        return self.dfs_topological()
+
+
 
 if __name__ == '__main__':
     g = Graph()
@@ -87,6 +114,8 @@ if __name__ == '__main__':
     n2 = Node(2)
     n3 = Node(3)
     n4 = Node(4)
+    n5 = Node(5)
+    n6 = Node(6)
     g.addEdge(n0, n1)
     g.addEdge(n0, n2)
     g.addEdge(n1, n2)
@@ -94,13 +123,14 @@ if __name__ == '__main__':
     g.addEdge(n2, n3)
     g.addEdge(n3, n3)
     g.addEdge(n0, n4)
-
-    print ("Following is Breadth First Traversal"
-                    " (starting from vertex 2)")
+    g.addEdge(n5, n6)
+    
     # g.bfs(n2)
     # g.print_path(n2, n4)
 
-    g.dfs()
-    for v in g.vertices:
+    # g.dfs()
+    l = g.topological_sort()
+    for v in l:
         print(v)
+        
         
